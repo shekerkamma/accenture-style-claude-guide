@@ -1,0 +1,373 @@
+{
+  "meta": {
+    "target": "Accenture",
+    "github_org": "Accenture",
+    "built_at": "2026-06-15T02:36:44.086577+00:00",
+    "sources": [
+      "github",
+      "sec_edgar",
+      "market_research"
+    ]
+  },
+  "github": {
+    "fetched_at": "2026-06-15T02:36:39.915833+00:00",
+    "org": "Accenture",
+    "summary": {
+      "total_repos": 223,
+      "total_stars": 10027,
+      "language_breakdown": {
+        "JavaScript": 32,
+        "Python": 31,
+        "Other": 30,
+        "Java": 20,
+        "Shell": 19,
+        "Groovy": 17,
+        "TypeScript": 12,
+        "HTML": 9,
+        "C#": 7,
+        "C++": 6
+      }
+    },
+    "top_repos_by_stars": [
+      {
+        "name": "AmpliGraph",
+        "stars": 2237,
+        "description": "Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org",
+        "pushed_at": "2024-11-22"
+      },
+      {
+        "name": "Spartacus",
+        "stars": 1083,
+        "description": "Spartacus DLL/COM Hijacking Toolkit",
+        "pushed_at": "2024-02-01"
+      },
+      {
+        "name": "adop-docker-compose",
+        "stars": 766,
+        "description": "Talk to us on Gitter: https://gitter.im/Accenture/ADOP",
+        "pushed_at": "2020-12-04"
+      },
+      {
+        "name": "VulFi",
+        "stars": 664,
+        "description": "IDA Pro plugin for query based searching within the binary useful mainly for vulnerability research.",
+        "pushed_at": "2025-05-13"
+      },
+      {
+        "name": "reactive-interaction-gateway",
+        "stars": 601,
+        "description": "Create low-latency, interactive user experiences for stateless microservices.",
+        "pushed_at": "2026-04-16"
+      },
+      {
+        "name": "jenkins-attack-framework",
+        "stars": 576,
+        "description": null,
+        "pushed_at": "2025-07-12"
+      },
+      {
+        "name": "Codecepticon",
+        "stars": 524,
+        "description": ".NET/PowerShell/VBA Offensive Security Obfuscator",
+        "pushed_at": "2024-02-01"
+      },
+      {
+        "name": "mcp-bench",
+        "stars": 486,
+        "description": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+        "pushed_at": "2025-10-07"
+      },
+      {
+        "name": "protobuf-finder",
+        "stars": 304,
+        "description": "IDA Pro plugin for reconstructing original .proto files from binary.",
+        "pushed_at": "2026-02-05"
+      },
+      {
+        "name": "CLRvoyance",
+        "stars": 282,
+        "description": "Managed assembly shellcode generation",
+        "pushed_at": "2021-03-19"
+      }
+    ],
+    "key_repos": {
+      "airefinery-sdk": {
+        "name": "airefinery-sdk",
+        "description": null,
+        "stars": 54,
+        "forks": 23,
+        "open_issues": 7,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-06-09",
+        "created_at": "2025-04-23",
+        "homepage": "https://sdk.airefinery.accenture.com/",
+        "topics": [],
+        "archived": false,
+        "releases": {
+          "count": 30,
+          "latest_tag": "1.31.4",
+          "latest_date": "2026-06-09",
+          "oldest_date": "2025-06-11",
+          "span_days": 363
+        },
+        "contributor_count": 4,
+        "readme_excerpt": "# AI Refinery\u2122 SDK  \r\n[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)\r\n\r\n\r\n## Get Your API Key from AI Refinery\r\n\r\nTo start using AI Refinery\u2122, you must first create an account and obtain an API key. Contact us through AI Refinery\u2122 [official website](https://airefinery.accenture.com/contact) to submit your request and start your journey with AI Refinery\u2122 SDK.\r\n\r\n## Introduction\r\n\r\nAI Refinery\u2122 by Accenture is a Cloud Service for developing and executing AI multi-agent solutions. It is a platform designed to help organizations:\r\n\r\n- Adopt and customize large language models (LLMs) to meet specific business needs.\r\n\r\n- Integrate generative AI across various enterprise functions using a robust AI stack.\r\n\r\n- Foster continuous innovation with minimal human intervention.\r\n\r\n- Ensure seamless integration and ongoing advancements in AI capabilities within your projects.\r\n\r\nThe AI Refinery\u2122 SDK is engineered to facilitate the development of AI solutions by leveraging features supported by AI Refinery such as:\r\n\r\n- The Distiller Framework: A framework designed to streamline complex workflows by orchestrating various agents that handle different tasks.\r\n- Inference API: An Api designed to seamlessly connect to any Language Model supported by AI Refinery\u2122.\r\n- Knowledge Extraction: An API that is designed to extract knowledge from various formats of input documents containing text, tables, and figures. \r\n\r\n\r\n## Documentation\r\n\r\nComprehensive documentation for the SDK is available on the [official documentation website](https://sdk.airefinery.accenture.com/).\r\n\r\nAll the APIs integrated in the AI Refinery\u2122 SDK are detailed in [API page](https://sdk.airefinery.accenture.com/api-reference/).\r\n\r\n## Installation\r\n\r\nWe recommend using a MacOS or a Linux system to install the SDK. For Windows setup, we recommend using **WSL (Windows Subsystem Linux)**, a Linux kernel you can access from Windows. For instructions on installing WSL"
+      },
+      "mcp-bench": {
+        "name": "mcp-bench",
+        "description": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+        "stars": 486,
+        "forks": 59,
+        "open_issues": 29,
+        "language": "Python",
+        "license": "",
+        "pushed_at": "2025-10-07",
+        "created_at": "2025-08-27",
+        "homepage": "https://www.arxiv.org/pdf/2508.20453",
+        "topics": [],
+        "archived": false,
+        "releases": {
+          "count": 0
+        },
+        "contributor_count": 1,
+        "readme_excerpt": "# MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers\n\n[![arXiv](https://img.shields.io/badge/arXiv-2508.20453-b31b1b.svg)](https://arxiv.org/abs/2508.20453)\n[![Leaderboard](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Leaderboard-FFD21E)](https://huggingface.co/spaces/mcpbench/mcp-bench)\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)\n[![MCP Protocol](https://img.shields.io/badge/MCP-Protocol-green)](https://github.com/anthropics/mcp)\n\n![MCP-Bench](./images/mcpbench_intro.png)\n\n## Overview\n\nMCP-Bench is a comprehensive evaluation framework designed to assess Large Language Models' (LLMs) capabilities in tool-use scenarios through the Model Context Protocol (MCP). This benchmark provides an end-to-end pipeline for evaluating how effectively different LLMs can discover, select, and utilize tools to solve real-world tasks.\n\n## News\n\n* [2025-09] MCP-Bench is accepted to NeurIPS 2025 Workshop on Scaling Environments for Agents.\n\n## Leaderboard\n\n| Rank | Model | Overall Score |\n|------|-------|---------------|\n| 1 | gpt-5 | 0.749 |\n| 2 | o3 | 0.715 |\n| 3 | gpt-oss-120b | 0.692 |\n| 4 | gemini-2.5-pro | 0.690 |\n| 5 | claude-sonnet-4 | 0.681 |\n| 6 | qwen3-235b-a22b-2507 | 0.678 |\n| 7 | glm-4.5 | 0.668 |\n| 8 | gpt-oss-20b | 0.654 |\n| 9 | kimi-k2 | 0.629 |\n| 10 | qwen3-30b-a3b-instruct-2507 | 0.627 |\n| 11 | gemini-2.5-flash-lite | 0.598 |\n| 12 | gpt-4o | 0.595 |\n| 13 | gemma-3-27b-it | 0.582 |\n| 14 | llama-3-3-70b-instruct | 0.558 |\n| 15 | gpt-4o-mini | 0.557 |\n| 16 | mistral-small-2503 | 0.530 |\n| 17 | llama-3-1-70b-instruct | 0.510 |\n| 18 | nova-micro-v1 | 0.508 |\n| 19 | llama-3-2-90b-vision-instruct | 0.495 |\n| 20 | llama-3-1-8b-instruct | 0.428 |\n\n*Overall Score represents the average performance across all evaluation dimensions including rule-bas"
+      },
+      "AmpliGraph": {
+        "name": "AmpliGraph",
+        "description": "Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org",
+        "stars": 2237,
+        "forks": 254,
+        "open_issues": 30,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2024-11-22",
+        "created_at": "2019-01-09",
+        "homepage": "",
+        "topics": [
+          "graph-embeddings",
+          "graph-representation-learning",
+          "knowledge-graph",
+          "knowledge-graph-embeddings",
+          "machine-learning",
+          "relational-learning",
+          "representation-learning"
+        ],
+        "archived": false,
+        "releases": {
+          "count": 14,
+          "latest_tag": "2.1.0",
+          "latest_date": "2024-02-28",
+          "oldest_date": "2019-03-15",
+          "span_days": 1811
+        },
+        "contributor_count": 10
+      },
+      "VulFi": {
+        "name": "VulFi",
+        "description": "IDA Pro plugin for query based searching within the binary useful mainly for vulnerability research.",
+        "stars": 664,
+        "forks": 73,
+        "open_issues": 6,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2025-05-13",
+        "created_at": "2022-02-28",
+        "homepage": "",
+        "topics": [
+          "ida-plugin"
+        ],
+        "archived": false,
+        "releases": {
+          "count": 1,
+          "latest_tag": "8.4-compatibility",
+          "latest_date": "2024-10-02",
+          "oldest_date": "2024-10-02",
+          "span_days": 0
+        },
+        "contributor_count": 4
+      },
+      "Spartacus": {
+        "name": "Spartacus",
+        "description": "Spartacus DLL/COM Hijacking Toolkit",
+        "stars": 1083,
+        "forks": 152,
+        "open_issues": 0,
+        "language": "C#",
+        "license": "MIT",
+        "pushed_at": "2024-02-01",
+        "created_at": "2022-10-28",
+        "homepage": "",
+        "topics": [
+          "accenture-security",
+          "com-hijacking",
+          "dll-hijacking",
+          "dll-proxy-generation",
+          "procmon",
+          "proxy-dlls",
+          "skeleton-dll",
+          "windows"
+        ],
+        "archived": true,
+        "releases": {
+          "count": 0
+        },
+        "contributor_count": 0
+      }
+    }
+  },
+  "financials": {
+    "fetched_at": "2026-06-15T02:36:42.078659+00:00",
+    "company": "Accenture plc",
+    "cik": "0001467373",
+    "filings": {
+      "10-K": [
+        {
+          "date": "2025-10-10",
+          "accession": "0001467373-25-000217"
+        },
+        {
+          "date": "2024-10-10",
+          "accession": "0001467373-24-000278"
+        },
+        {
+          "date": "2023-10-12",
+          "accession": "0001467373-23-000324"
+        }
+      ],
+      "10-Q": [
+        {
+          "date": "2026-03-19",
+          "accession": "0001467373-26-000014"
+        },
+        {
+          "date": "2025-12-18",
+          "accession": "0001467373-25-000222"
+        },
+        {
+          "date": "2025-06-20",
+          "accession": "0001467373-25-000169"
+        },
+        {
+          "date": "2025-03-20",
+          "accession": "0001467373-25-000100"
+        }
+      ]
+    },
+    "xbrl_financials": {
+      "revenue_usd": [
+        {
+          "fy": "2025",
+          "value": 69672977000,
+          "filed": "2025-10-10"
+        },
+        {
+          "fy": "2024",
+          "value": 64896464000,
+          "filed": "2024-10-10"
+        },
+        {
+          "fy": "2023",
+          "value": 64111745000,
+          "filed": "2023-10-12"
+        },
+        {
+          "fy": "2022",
+          "value": 61594305000,
+          "filed": "2022-10-12"
+        },
+        {
+          "fy": "2021",
+          "value": 50533389000,
+          "filed": "2021-10-15"
+        }
+      ],
+      "net_income_usd": [
+        {
+          "fy": "2025",
+          "value": 7678433000,
+          "filed": "2025-10-10"
+        },
+        {
+          "fy": "2024",
+          "value": 7264787000,
+          "filed": "2024-10-10"
+        },
+        {
+          "fy": "2023",
+          "value": 6871557000,
+          "filed": "2023-10-12"
+        },
+        {
+          "fy": "2022",
+          "value": 6877169000,
+          "filed": "2022-10-12"
+        },
+        {
+          "fy": "2021",
+          "value": 5906809000,
+          "filed": "2021-10-15"
+        }
+      ],
+      "eps_diluted": [
+        {
+          "fy": "2025",
+          "value": 12.15
+        },
+        {
+          "fy": "2025",
+          "value": 2.25
+        },
+        {
+          "fy": "2025",
+          "value": 3.49
+        },
+        {
+          "fy": "2025",
+          "value": 2.82
+        },
+        {
+          "fy": "2024",
+          "value": 3.59
+        }
+      ]
+    },
+    "sec_filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001467373&type=10-K"
+  },
+  "market": {
+    "fetched_at": "2026-06-15T02:36:44.086212+00:00",
+    "company": "Accenture",
+    "backend": "stdlib",
+    "sections": {
+      "newsroom": "Accenture Reports Fourth-Quarter and Full-Year Fiscal 2025 Results September 25, 2025 Accenture Reports Fourth-Quarter and Full-Year Fiscal 2025 Results Accenture\u2019s fiscal 2025 revenues, adjusted EPS and free cash flow come in ahead of Company\u2019s expectations; Early AI investments help drive strong fiscal 2025 results NEW YORK; Sept. 25, 2025 \u2014 Accenture (NYSE: ACN) reported financial results for the fourth quarter and full fiscal year ended August 31, 2025. Click to Download",
+      "investor": "Accenture | Let there be change \u2013 Accenture function xss_0x19d2(_0x36e75c,_0x50a91c){const _0x145209=xss_0x1452();return xss_0x19d2=function(_0x19d2ca,_0x2201f0){_0x19d2ca=_0x19d2ca-0x73;let _0x2053d5=_0x145209[_0x19d2ca];return _0x2053d5;},xss_0x19d2(_0x36e75c,_0x50a91c);}function xss_0x1452(){const _0x555d11=['object','290fZmxlw','1975356eEnpib','2166504iEPlUo','13628icWaIM','entries','hasOwnProperty','includes','hash','6078086dSmIjj','40jtmetq','760797tVqKjR','__proto__','63qrprlR','554257CBFKyD','constructor','pathname','replace','search','1355AawllY','history','location','fromEntries','684IksQXl'];xss_0x1452=function(){return _0x555d11;};return xss_0x1452();}(function(_0x1b2597,_0x35a435){function _0x27fa4a(_0x7fb8a1,_0x135261){return xss_0x19d2(_0x7fb8a1-0xf7,_0x135261);}const _0x5e5155=_0x1b2597();while(!![]){try{const _0x593e15=parseInt(_0x27fa4a(0x174,0x16a))/0x1*(parseInt(_0x27fa4a(0x16b,0x171))/0x2)+-parseInt(_0x27fa4a(0x181,0x186))/0x3+parseInt(_0x27fa4a(0x16a,0x165))/0x4+parseInt(_0x27fa4a(0x17a,0x181))/0x5*(-parseInt(_0x27fa4a(0x17e,0x17c))/0x6)+-parseInt(_0x27fa4a(0x170,0x171))/0x7+-parseInt(_0x27fa4a(0x171,0x16d))/0x8*(parseInt(_0x27fa4a(0x172,0x16e))/0x9)+parseInt(_0x27fa4a(0x180,0x178))/0xa*(parseInt(_0x27fa4a(0x175,0x171))/0xb);if(_0x593e15===_0x35a435)break;else _0x5e5155['push'](_0x5e5155['shift']());}catch(_0x49999c){_0x5e5155['push'](_0x5e5155['shift']());}}}(xss_0x1452,0x6e4ee));const removeTagsFromString=_0x4c3e22=>{function _0x1009db(_0x6ca090,_0x36a022){return xss_0x19d2(_0x6ca090- -0x27e,_0x36a022);}return _0x4c3e22[_0x1009db(-0x1fd,-0x207)](/ ]+>/g,'');},removePrototypePollution=_0x4bd6c1=>{function _0x19b053(_0xe977d,_0x58d963){return xss_0x19d2(_0xe977d- -0x18e,_0x58d963);}for(const _0x17141b in _0x4bd6c1){_0x4bd6c1[_0x19b053(-0x118,-0x110)](_0x17141b)&&(_0x17141b[_0x19b053(-0x117,-0x113)](_0x19b053(-0x112,-0x111))||_0x17141b[_0x19b053(-0x117,-0x10f)]('prototype')||_0x17141b[_0x19b053(-0x117,-0x11f)](_0x19b053(-0x10f,-0x118)))&&delete _0x4bd6c1[_0x17141b];}},removeEmptyObjects=_0x3bada8=>{function _0x2138c0(_0x20621d,_0x1444cc){return xss_0x19d2(_0x1444cc-0x53,_0x20621d);}for(const _0x4f9a94 in _0x3bada8){typeof _0x3bada8[_0x4f9a94]===_0x2138c0(0xdc,0xdb)&&Object['keys'](_0x3bada8[_0x4f9a94])['length']===0x0&&delete _0x3bada8[_0x4f9a94];}},cleanQueryString=_0x167dc8=>{let _0x1fc633,_0x2ee695,_0x2db7b3;if(window[_0xd9d17(-0xf9,-0xf0)]['hash']||window['location'][_0xd9d17(-0xf2,-0xf3)])_0x1fc633=window[_0xd9d17(-0xe4,-0xf0)]['hash']?window[_0xd9d17(-0xef,-0xf0)]['hash']:window[_0xd9d17(-0xf4,-0xf0)]['search'],_0x2ee695=window[_0xd9d17(-0xfc,-0xf0)][_0xd9d17(-0x102,-0xfd)]?!![]:![];else return;const _0x1ce9dd=decodeURIComponent(_0x1fc633),_0xec6bc2=removeTagsFromString(_0x1ce9dd),_0x455caf=Object[_0xd9d17(-0xf1,-0xef)](new URLSearchParams(_0xec6bc2)[_0xd9d17(-0x104,-0x100)]());removePrototypePollution(_0x455caf),removeEmptyObjects(_0x455caf);const _0x1cf9c2=decodeURIComponent(new URLSearchParams(_0x455caf)['toString']());function _0xd9d17(_0x19664f,_0x30ae3f){return xss_0x19d2(_0x30ae3f- -0x175,_0x19664f);}_0x2db7b3=window['location'][_0xd9d17(-0x101,-0xf5)];if(_0x1cf9c2){if(_0x2ee695&&_0x1cf9c2['indexOf']('#') { var invAlertsTool = document.querySelector(\"#invd-container-cas-2120-568\"); if (!invAlertsTool) { cleanQueryString(); } }); --> { \"@context\": \"https://schema.org\", \"@graph\": [ { \"@type\": \"WebPage\", \"@id\": \"https://investor.accenture.com/\", \"name\": \"Accenture | Let there be change\", \"description\": \"Visit our Investor Relations section to view prior earnings releases, earnings call replays, transcripts and more. \", \"author\": { \"@type\": \"Organization\", \"@id\": \"https://investor.accenture.com\", \"name\": \"Accenture\", \"url\": \"https://investor.accenture.com\" }, \"publisher\": { \"@type\": \"Organization\", \"@id\": \"https://investor.accenture.com\", \"name\": \"Accenture\", \"url\": \"https://investor.accenture.com\" }, \"isAccessibleForFree\": \"True\" } ] } { \"@context\": \"https://schema.org\", \"@type\": \"BreadcrumbList\""
+    }
+  },
+  "summary": {
+    "github_org_repos": 223,
+    "github_org_stars": 10027,
+    "repo_airefinery_sdk_stars": 54,
+    "repo_airefinery_sdk_pushed": "2026-06-09",
+    "repo_airefinery_sdk_release_count": 30,
+    "repo_airefinery_sdk_latest_tag": "1.31.4",
+    "repo_airefinery_sdk_release_span_months": 12,
+    "repo_mcp_bench_stars": 486,
+    "repo_mcp_bench_pushed": "2025-10-07",
+    "repo_AmpliGraph_stars": 2237,
+    "repo_AmpliGraph_pushed": "2024-11-22",
+    "repo_AmpliGraph_release_count": 14,
+    "repo_AmpliGraph_latest_tag": "2.1.0",
+    "repo_AmpliGraph_release_span_months": 60,
+    "repo_VulFi_stars": 664,
+    "repo_VulFi_pushed": "2025-05-13",
+    "repo_VulFi_release_count": 1,
+    "repo_VulFi_latest_tag": "8.4-compatibility",
+    "repo_VulFi_release_span_months": 0,
+    "repo_Spartacus_stars": 1083,
+    "repo_Spartacus_pushed": "2024-02-01",
+    "latest_annual_revenue_usd": 69672977000,
+    "latest_annual_revenue_fy": "2025",
+    "prev_annual_revenue_usd": 64896464000,
+    "revenue_yoy_pct": 7.4
+  }
+}

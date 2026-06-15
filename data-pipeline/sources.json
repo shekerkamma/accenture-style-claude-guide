@@ -1,0 +1,44 @@
+{
+  "target": {
+    "name": "Accenture",
+    "ticker": "ACN",
+    "github_org": "Accenture",
+    "sec_cik": "0001467373",
+    "newsroom_url": "https://newsroom.accenture.com/news/2025/accenture-reports-fourth-quarter-and-full-year-fiscal-2025-results",
+    "investor_url": "https://investor.accenture.com/"
+  },
+  "github": {
+    "key_repos": [
+      "airefinery-sdk",
+      "mcp-bench",
+      "AmpliGraph",
+      "VulFi",
+      "Spartacus",
+      "reactive-interaction-gateway"
+    ],
+    "fetch_readme_for": [
+      "airefinery-sdk",
+      "mcp-bench"
+    ],
+    "max_org_repos": 223
+  },
+  "market_research": {
+    "exa_queries": [
+      "{company} annual revenue GenAI AI revenue fiscal year results",
+      "{company} AI strategy competitive positioning 2025 2026",
+      "AI consulting services market size TAM 2025 2026 forecast",
+      "{company} competitors BCG McKinsey Deloitte AI market share"
+    ],
+    "firecrawl_urls": [
+      "https://newsroom.accenture.com/subject/financial-results/",
+      "https://www.gartner.com/en/newsroom/press-releases"
+    ]
+  },
+  "edgar": {
+    "form_types": [
+      "10-K",
+      "10-Q"
+    ],
+    "max_filings": 5
+  }
+}

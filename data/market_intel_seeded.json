@@ -1,0 +1,170 @@
+{
+  "fetched_at": "2026-06-15T02:35:00Z",
+  "company": "Accenture",
+  "backend": "exa_mcp_session",
+  "note": "Seeded from live Exa MCP research on 2026-06-15. Re-run fetch_market.py with EXA_API_KEY set to refresh.",
+  "accenture_financials": {
+    "source": "Accenture FY2025 10-K + Q1FY26 earnings (Dec 18 2025)",
+    "fy2025": {
+      "revenue_usd": 69672977000,
+      "revenue_growth_lc_pct": 7,
+      "genai_revenue_usd": 2700000000,
+      "genai_revenue_growth_yoy_x": 3,
+      "genai_bookings_usd": 5900000000,
+      "total_bookings_usd": 80600000000,
+      "adjusted_eps": 12.93,
+      "adjusted_eps_growth_pct": 8,
+      "adjusted_operating_margin_pct": 15.6,
+      "free_cash_flow_usd": 10900000000,
+      "quarterly_bookings_over_100m": 129,
+      "ai_practitioners": 77000,
+      "genai_client_projects": 6000,
+      "people_trained_genai": 550000
+    },
+    "q1_fy2026": {
+      "period_ended": "2025-11-30",
+      "revenue_usd": 18700000000,
+      "revenue_growth_lc_pct": 5,
+      "bookings_usd": 20900000000,
+      "bookings_growth_lc_pct": 10,
+      "advanced_ai_bookings_usd": 2200000000,
+      "advanced_ai_bookings_growth_yoy_pct": 76,
+      "advanced_ai_revenue_usd": 1100000000,
+      "advanced_ai_revenue_growth_yoy_pct": 120,
+      "advanced_ai_clients_to_date": 1300,
+      "deployed_reusable_agents": 3000,
+      "adjusted_operating_margin_pct": 17.0,
+      "note_advanced_ai_reporting": "Q1FY26 is the LAST quarter Accenture separately reports Advanced AI bookings/revenue. Advanced AI is now embedded across nearly all work."
+    },
+    "fy2026_guidance": {
+      "revenue_growth_lc_low_pct": 2,
+      "revenue_growth_lc_high_pct": 5,
+      "revenue_growth_ex_federal_low_pct": 3,
+      "revenue_growth_ex_federal_high_pct": 6,
+      "federal_drag_pct": 1,
+      "inorganic_contribution_pct": 1.5,
+      "adjusted_eps_low": 13.52,
+      "adjusted_eps_high": 13.90,
+      "cash_return_to_shareholders_usd": 9300000000
+    },
+    "revenue_by_industry": {
+      "financial_services_fy25_usd": 12773856000,
+      "financial_services_growth_pct": 10,
+      "products_fy25_usd": 21197397000,
+      "products_growth_pct": 8,
+      "health_public_service_fy25_usd": 14762837000,
+      "health_public_service_growth_pct": 7,
+      "communications_media_tech_fy25_usd": 11453982000,
+      "communications_media_tech_growth_pct": 6,
+      "resources_fy25_usd": 9484905000,
+      "resources_growth_pct": 5
+    },
+    "revenue_by_type": {
+      "consulting_fy25_usd": 35106786000,
+      "consulting_growth_pct": 6,
+      "managed_services_fy25_usd": 34566191000,
+      "managed_services_growth_pct": 9
+    }
+  },
+  "market_sizing": {
+    "ai_consulting_services": {
+      "2026_usd": 13800000000,
+      "2033_usd": 73100000000,
+      "cagr_pct": 27.1,
+      "source": "Persistence Market Research 2026"
+    },
+    "ai_consulting_services_broad": {
+      "2025_usd": 36600000000,
+      "2035_usd": 120000000000,
+      "cagr_pct": 12.61,
+      "source": "Market Research Future 2026"
+    },
+    "total_ai_spending_worldwide": {
+      "2026_usd": 2520000000000,
+      "growth_yoy_pct": 44,
+      "source": "Gartner Jan 2026"
+    },
+    "us_management_consulting_market": {
+      "2026_usd": 411700000000,
+      "source": "Kenmei Drive Competitive Benchmark Apr 2026"
+    },
+    "ai_services_tam_by_2029": {
+      "usd": 70000000000,
+      "annual_growth_pct": 40,
+      "source": "IDC Worldwide AI and GenAI Spending Guide Aug 2025 (cited by Accenture Q1FY26)"
+    }
+  },
+  "competitors": {
+    "bcg": {
+      "revenue_2025_usd": 14400000000,
+      "revenue_growth_2025_pct": 7,
+      "employees": 33500,
+      "ai_tech_revenue_share_pct": 40,
+      "ai_services_growth_yoy_pct": 25,
+      "bcg_x_headcount": 3000,
+      "source": "BCG press release Apr 2026"
+    },
+    "mckinsey_quantumblack": {
+      "description": "Global AI and engineering powerhouse; grew from 45 people (2015) to global scale",
+      "anniversary": "10 years (2015-2025)",
+      "source": "McKinsey QuantumBlack website Dec 2025"
+    },
+    "big4_ai_investment": {
+      "ey_ai_platform_usd": 1000000000,
+      "pwc_google_partnership_usd": 400000000,
+      "deloitte_approach": "Autonomous AI co-workers",
+      "kpmg_approach": "Workbench multi-agent platform",
+      "combined_annual_usd": 3000000000,
+      "source": "Kenmei Drive Competitive Benchmark Apr 2026"
+    },
+    "boutique_ai_firms": {
+      "growth_premium_vs_big4_pct": 38,
+      "market_share_captured_pct": 25,
+      "margin_compression_mid_market_pct": "4-7",
+      "source": "Kenmei Drive Competitive Benchmark Apr 2026"
+    }
+  },
+  "accenture_github_intelligence": {
+    "org": "Accenture",
+    "total_repos": 223,
+    "total_stars": 10027,
+    "top_repos": [
+      {"name": "AmpliGraph", "stars": 2237, "description": "Knowledge Graph Embeddings with TensorFlow 2", "pushed_at": "2024-11-22"},
+      {"name": "Spartacus", "stars": 1083, "description": "SAP Commerce storefront", "pushed_at": "2024-02-01"},
+      {"name": "adop-docker-compose", "stars": 766, "pushed_at": "2020-04-07"},
+      {"name": "VulFi", "stars": 664, "description": "IDA plugin for vulnerability research", "pushed_at": "2025-05-13"},
+      {"name": "reactive-interaction-gateway", "stars": 601, "pushed_at": "2026-04-16"}
+    ],
+    "key_repos": {
+      "airefinery-sdk": {
+        "description": "AI Refinery multi-agent SDK — Distiller Framework, LLM-agnostic Inference API, RAI module",
+        "stars": 54,
+        "forks": 23,
+        "pushed_at": "2026-06-09",
+        "latest_release": "1.31.4",
+        "release_count": 30,
+        "release_span_months": 12,
+        "homepage": "https://sdk.airefinery.accenture.com",
+        "license": "Apache-2.0"
+      },
+      "mcp-bench": {
+        "description": "Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+        "stars": 486,
+        "forks": 59,
+        "created_at": "2025-08-27",
+        "pushed_at": "2025-10-07",
+        "homepage": "https://arxiv.org/pdf/2508.20453",
+        "accepted": "NeurIPS 2025 Workshop",
+        "leaderboard": "HuggingFace live leaderboard"
+      },
+      "AmpliGraph": {
+        "description": "Python library for Representation Learning on Knowledge Graphs",
+        "stars": 2237,
+        "forks": 254,
+        "pushed_at": "2024-11-22",
+        "latest_release": "2.1.0",
+        "release_count": 14
+      }
+    }
+  }
+}

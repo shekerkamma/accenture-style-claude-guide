@@ -1,0 +1,207 @@
+{
+  "fetched_at": "2026-06-15T02:36:39.915833+00:00",
+  "org": "Accenture",
+  "summary": {
+    "total_repos": 223,
+    "total_stars": 10027,
+    "language_breakdown": {
+      "JavaScript": 32,
+      "Python": 31,
+      "Other": 30,
+      "Java": 20,
+      "Shell": 19,
+      "Groovy": 17,
+      "TypeScript": 12,
+      "HTML": 9,
+      "C#": 7,
+      "C++": 6
+    }
+  },
+  "top_repos_by_stars": [
+    {
+      "name": "AmpliGraph",
+      "stars": 2237,
+      "description": "Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org",
+      "pushed_at": "2024-11-22"
+    },
+    {
+      "name": "Spartacus",
+      "stars": 1083,
+      "description": "Spartacus DLL/COM Hijacking Toolkit",
+      "pushed_at": "2024-02-01"
+    },
+    {
+      "name": "adop-docker-compose",
+      "stars": 766,
+      "description": "Talk to us on Gitter: https://gitter.im/Accenture/ADOP",
+      "pushed_at": "2020-12-04"
+    },
+    {
+      "name": "VulFi",
+      "stars": 664,
+      "description": "IDA Pro plugin for query based searching within the binary useful mainly for vulnerability research.",
+      "pushed_at": "2025-05-13"
+    },
+    {
+      "name": "reactive-interaction-gateway",
+      "stars": 601,
+      "description": "Create low-latency, interactive user experiences for stateless microservices.",
+      "pushed_at": "2026-04-16"
+    },
+    {
+      "name": "jenkins-attack-framework",
+      "stars": 576,
+      "description": null,
+      "pushed_at": "2025-07-12"
+    },
+    {
+      "name": "Codecepticon",
+      "stars": 524,
+      "description": ".NET/PowerShell/VBA Offensive Security Obfuscator",
+      "pushed_at": "2024-02-01"
+    },
+    {
+      "name": "mcp-bench",
+      "stars": 486,
+      "description": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+      "pushed_at": "2025-10-07"
+    },
+    {
+      "name": "protobuf-finder",
+      "stars": 304,
+      "description": "IDA Pro plugin for reconstructing original .proto files from binary.",
+      "pushed_at": "2026-02-05"
+    },
+    {
+      "name": "CLRvoyance",
+      "stars": 282,
+      "description": "Managed assembly shellcode generation",
+      "pushed_at": "2021-03-19"
+    }
+  ],
+  "key_repos": {
+    "airefinery-sdk": {
+      "name": "airefinery-sdk",
+      "description": null,
+      "stars": 54,
+      "forks": 23,
+      "open_issues": 7,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2026-06-09",
+      "created_at": "2025-04-23",
+      "homepage": "https://sdk.airefinery.accenture.com/",
+      "topics": [],
+      "archived": false,
+      "releases": {
+        "count": 30,
+        "latest_tag": "1.31.4",
+        "latest_date": "2026-06-09",
+        "oldest_date": "2025-06-11",
+        "span_days": 363
+      },
+      "contributor_count": 4,
+      "readme_excerpt": "# AI Refinery\u2122 SDK  \r\n[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)\r\n\r\n\r\n## Get Your API Key from AI Refinery\r\n\r\nTo start using AI Refinery\u2122, you must first create an account and obtain an API key. Contact us through AI Refinery\u2122 [official website](https://airefinery.accenture.com/contact) to submit your request and start your journey with AI Refinery\u2122 SDK.\r\n\r\n## Introduction\r\n\r\nAI Refinery\u2122 by Accenture is a Cloud Service for developing and executing AI multi-agent solutions. It is a platform designed to help organizations:\r\n\r\n- Adopt and customize large language models (LLMs) to meet specific business needs.\r\n\r\n- Integrate generative AI across various enterprise functions using a robust AI stack.\r\n\r\n- Foster continuous innovation with minimal human intervention.\r\n\r\n- Ensure seamless integration and ongoing advancements in AI capabilities within your projects.\r\n\r\nThe AI Refinery\u2122 SDK is engineered to facilitate the development of AI solutions by leveraging features supported by AI Refinery such as:\r\n\r\n- The Distiller Framework: A framework designed to streamline complex workflows by orchestrating various agents that handle different tasks.\r\n- Inference API: An Api designed to seamlessly connect to any Language Model supported by AI Refinery\u2122.\r\n- Knowledge Extraction: An API that is designed to extract knowledge from various formats of input documents containing text, tables, and figures. \r\n\r\n\r\n## Documentation\r\n\r\nComprehensive documentation for the SDK is available on the [official documentation website](https://sdk.airefinery.accenture.com/).\r\n\r\nAll the APIs integrated in the AI Refinery\u2122 SDK are detailed in [API page](https://sdk.airefinery.accenture.com/api-reference/).\r\n\r\n## Installation\r\n\r\nWe recommend using a MacOS or a Linux system to install the SDK. For Windows setup, we recommend using **WSL (Windows Subsystem Linux)**, a Linux kernel you can access from Windows. For instructions on installing WSL"
+    },
+    "mcp-bench": {
+      "name": "mcp-bench",
+      "description": "MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers",
+      "stars": 486,
+      "forks": 59,
+      "open_issues": 29,
+      "language": "Python",
+      "license": "",
+      "pushed_at": "2025-10-07",
+      "created_at": "2025-08-27",
+      "homepage": "https://www.arxiv.org/pdf/2508.20453",
+      "topics": [],
+      "archived": false,
+      "releases": {
+        "count": 0
+      },
+      "contributor_count": 1,
+      "readme_excerpt": "# MCP-Bench: Benchmarking Tool-Using LLM Agents with Complex Real-World Tasks via MCP Servers\n\n[![arXiv](https://img.shields.io/badge/arXiv-2508.20453-b31b1b.svg)](https://arxiv.org/abs/2508.20453)\n[![Leaderboard](https://img.shields.io/badge/\ud83e\udd17%20Hugging%20Face-Leaderboard-FFD21E)](https://huggingface.co/spaces/mcpbench/mcp-bench)\n[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)\n[![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/downloads/)\n[![MCP Protocol](https://img.shields.io/badge/MCP-Protocol-green)](https://github.com/anthropics/mcp)\n\n![MCP-Bench](./images/mcpbench_intro.png)\n\n## Overview\n\nMCP-Bench is a comprehensive evaluation framework designed to assess Large Language Models' (LLMs) capabilities in tool-use scenarios through the Model Context Protocol (MCP). This benchmark provides an end-to-end pipeline for evaluating how effectively different LLMs can discover, select, and utilize tools to solve real-world tasks.\n\n## News\n\n* [2025-09] MCP-Bench is accepted to NeurIPS 2025 Workshop on Scaling Environments for Agents.\n\n## Leaderboard\n\n| Rank | Model | Overall Score |\n|------|-------|---------------|\n| 1 | gpt-5 | 0.749 |\n| 2 | o3 | 0.715 |\n| 3 | gpt-oss-120b | 0.692 |\n| 4 | gemini-2.5-pro | 0.690 |\n| 5 | claude-sonnet-4 | 0.681 |\n| 6 | qwen3-235b-a22b-2507 | 0.678 |\n| 7 | glm-4.5 | 0.668 |\n| 8 | gpt-oss-20b | 0.654 |\n| 9 | kimi-k2 | 0.629 |\n| 10 | qwen3-30b-a3b-instruct-2507 | 0.627 |\n| 11 | gemini-2.5-flash-lite | 0.598 |\n| 12 | gpt-4o | 0.595 |\n| 13 | gemma-3-27b-it | 0.582 |\n| 14 | llama-3-3-70b-instruct | 0.558 |\n| 15 | gpt-4o-mini | 0.557 |\n| 16 | mistral-small-2503 | 0.530 |\n| 17 | llama-3-1-70b-instruct | 0.510 |\n| 18 | nova-micro-v1 | 0.508 |\n| 19 | llama-3-2-90b-vision-instruct | 0.495 |\n| 20 | llama-3-1-8b-instruct | 0.428 |\n\n*Overall Score represents the average performance across all evaluation dimensions including rule-bas"
+    },
+    "AmpliGraph": {
+      "name": "AmpliGraph",
+      "description": "Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org",
+      "stars": 2237,
+      "forks": 254,
+      "open_issues": 30,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2024-11-22",
+      "created_at": "2019-01-09",
+      "homepage": "",
+      "topics": [
+        "graph-embeddings",
+        "graph-representation-learning",
+        "knowledge-graph",
+        "knowledge-graph-embeddings",
+        "machine-learning",
+        "relational-learning",
+        "representation-learning"
+      ],
+      "archived": false,
+      "releases": {
+        "count": 14,
+        "latest_tag": "2.1.0",
+        "latest_date": "2024-02-28",
+        "oldest_date": "2019-03-15",
+        "span_days": 1811
+      },
+      "contributor_count": 10
+    },
+    "VulFi": {
+      "name": "VulFi",
+      "description": "IDA Pro plugin for query based searching within the binary useful mainly for vulnerability research.",
+      "stars": 664,
+      "forks": 73,
+      "open_issues": 6,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "pushed_at": "2025-05-13",
+      "created_at": "2022-02-28",
+      "homepage": "",
+      "topics": [
+        "ida-plugin"
+      ],
+      "archived": false,
+      "releases": {
+        "count": 1,
+        "latest_tag": "8.4-compatibility",
+        "latest_date": "2024-10-02",
+        "oldest_date": "2024-10-02",
+        "span_days": 0
+      },
+      "contributor_count": 4
+    },
+    "Spartacus": {
+      "name": "Spartacus",
+      "description": "Spartacus DLL/COM Hijacking Toolkit",
+      "stars": 1083,
+      "forks": 152,
+      "open_issues": 0,
+      "language": "C#",
+      "license": "MIT",
+      "pushed_at": "2024-02-01",
+      "created_at": "2022-10-28",
+      "homepage": "",
+      "topics": [
+        "accenture-security",
+        "com-hijacking",
+        "dll-hijacking",
+        "dll-proxy-generation",
+        "procmon",
+        "proxy-dlls",
+        "skeleton-dll",
+        "windows"
+      ],
+      "archived": true,
+      "releases": {
+        "count": 0
+      },
+      "contributor_count": 0
+    }
+  }
+}
