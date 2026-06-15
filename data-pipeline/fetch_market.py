@@ -21,7 +21,8 @@ from urllib.error import HTTPError, URLError
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
-SOURCES = json.loads((ROOT / "data-pipeline/sources.json").read_text())
+_sources_path = os.environ.get("PIPELINE_SOURCES_PATH") or str(ROOT / "data-pipeline/sources.json")
+SOURCES = json.loads(Path(_sources_path).read_text())
 
 EXA_KEY = os.getenv("EXA_API_KEY", "")
 FIRECRAWL_KEY = os.getenv("FIRECRAWL_BEARER_AUTH", "")
@@ -87,13 +88,14 @@ def stdlib_fetch(url: str, max_chars: int = 4000) -> str:
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
+    sources = json.loads(Path(os.environ.get("PIPELINE_SOURCES_PATH") or str(ROOT / "data-pipeline/sources.json")).read_text())
     parser = argparse.ArgumentParser()
-    parser.add_argument("--company", default=SOURCES["target"]["name"])
+    parser.add_argument("--company", default=sources["target"]["name"])
     parser.add_argument("--out", default=str(ROOT / "data/market_intel.json"))
     args = parser.parse_args()
 
     company = args.company
-    cfg = SOURCES["market_research"]
+    cfg = sources["market_research"]
 
     backend = "exa" if EXA_KEY else "firecrawl" if FIRECRAWL_KEY else "stdlib"
     print(f"[market] fetching market data for '{company}' using backend: {backend}")
@@ -117,8 +119,8 @@ def main():
     else:
         # stdlib: scrape public investor/newsroom pages
         pages = {
-            "newsroom": SOURCES["target"].get("newsroom_url", ""),
-            "investor": SOURCES["target"].get("investor_url", ""),
+            "newsroom": sources["target"].get("newsroom_url", ""),
+            "investor": sources["target"].get("investor_url", ""),
         }
         for name, url in pages.items():
             if url:

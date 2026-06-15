@@ -1,0 +1,45 @@
+{
+  "target": {
+    "name": "IBM",
+    "ticker": "IBM",
+    "github_org": "IBM",
+    "sec_cik": "0000051143",
+    "newsroom_url": "https://newsroom.ibm.com/2025-01-29-IBM-Reports-2024-Fourth-Quarter-and-Full-Year-Results",
+    "investor_url": "https://investor.ibm.com/financial-information/quarterly-earnings/default.aspx"
+  },
+  "github": {
+    "key_repos": [
+      "mcp-context-forge",
+      "mcp-cli",
+      "AssetOpsBench",
+      "sarama",
+      "Project_CodeNet",
+      "fp-go"
+    ],
+    "fetch_readme_for": [
+      "mcp-context-forge",
+      "mcp-cli",
+      "AssetOpsBench"
+    ],
+    "max_org_repos": 100
+  },
+  "market_research": {
+    "exa_queries": [
+      "IBM 2024 annual revenue consulting software infrastructure growth results",
+      "IBM watsonx AI platform bookings enterprise adoption 2024 2025",
+      "AI consulting services market size TAM 2025 2026 forecast IBM position",
+      "IBM competitors Accenture Microsoft Google AI consulting market share 2025"
+    ],
+    "firecrawl_urls": [
+      "https://newsroom.ibm.com/2025-01-29-IBM-Reports-2024-Fourth-Quarter-and-Full-Year-Results",
+      "https://www.ibm.com/think/topics/watsonx"
+    ]
+  },
+  "edgar": {
+    "form_types": [
+      "10-K",
+      "10-Q"
+    ],
+    "max_filings": 5
+  }
+}

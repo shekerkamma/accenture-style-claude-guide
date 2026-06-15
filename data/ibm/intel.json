@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "target": "IBM",
+    "github_org": "IBM",
+    "built_at": "2026-06-15T03:04:53.456806+00:00",
+    "sources": [
+      "github",
+      "sec_edgar",
+      "market_research"
+    ]
+  },
+  "github": {
+    "fetched_at": "2026-06-15T03:04:45.938624+00:00",
+    "org": "IBM",
+    "summary": {
+      "total_repos": 3905,
+      "total_stars": 119098,
+      "language_breakdown": {
+        "Python": 956,
+        "Other": 714,
+        "JavaScript": 430,
+        "Jupyter Notebook": 295,
+        "Java": 282,
+        "Go": 255,
+        "Shell": 213,
+        "HTML": 145,
+        "TypeScript": 127,
+        "HCL": 65
+      }
+    },
+    "top_repos_by_stars": [
+      {
+        "name": "sarama",
+        "stars": 12492,
+        "description": "Sarama is a Go library for Apache Kafka.",
+        "pushed_at": "2026-06-12"
+      },
+      {
+        "name": "plex",
+        "stars": 11426,
+        "description": "The package of IBM\u2019s typeface, IBM Plex.",
+        "pushed_at": "2026-06-12"
+      },
+      {
+        "name": "mcp-context-forge",
+        "stars": 3885,
+        "description": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
+        "pushed_at": "2026-06-14"
+      },
+      {
+        "name": "css-gridish",
+        "stars": 2225,
+        "description": "Automatically build your grid design\u2019s CSS Grid code, CSS Flexbox fallback code, Sketch artboards, and Chrome extension.",
+        "pushed_at": "2019-04-18"
+      },
+      {
+        "name": "fp-go",
+        "stars": 1994,
+        "description": "Functional programming library for Go 1.24+, inspired by fp-ts. Uses generic type aliases for a clean, composable API. Provides Option, Either, Result, IO, IOResult, Reader, and ReaderIOResult monads, plus optics (Lens, Prism, Traversal) for immutable data manipulation. Supports Functor, Applicative, and Monad abstractions with do-notation-style",
+        "pushed_at": "2026-06-15"
+      },
+      {
+        "name": "mcp-cli",
+        "stars": 1986,
+        "description": null,
+        "pushed_at": "2026-06-12"
+      },
+      {
+        "name": "AssetOpsBench",
+        "stars": 1786,
+        "description": "AssetOpsBench - Industry 4.0: A unified benchmark and framework for building, orchestrating, and evaluating domain-specific AI agents for Industry 4.0 asset operations and maintenance, with 460+ scenarios, 5 specialist agents (IoT, FMSR, TSFM, Work Order,...), and multi-agent orchestration blueprints (MetaAgent, AgentHive) over MCP.",
+        "pushed_at": "2026-06-14"
+      },
+      {
+        "name": "Project_CodeNet",
+        "stars": 1683,
+        "description": "This repository is to support contributions for tools for the Project CodeNet dataset hosted in DAX",
+        "pushed_at": "2025-12-21"
+      },
+      {
+        "name": "openapi-to-graphql",
+        "stars": 1645,
+        "description": "Translate APIs described by OpenAPI Specifications (OAS) into GraphQL",
+        "pushed_at": "2026-06-02"
+      },
+      {
+        "name": "pytorch-seq2seq",
+        "stars": 1514,
+        "description": "An open source framework for seq2seq models in PyTorch.",
+        "pushed_at": "2025-09-17"
+      }
+    ],
+    "key_repos": {
+      "mcp-context-forge": {
+        "name": "mcp-context-forge",
+        "description": "An AI Gateway, registry, and proxy that sits in front of any MCP, A2A, or REST/gRPC APIs, exposing a unified endpoint with centralized discovery, guardrails and management. Optimizes Agent & Tool calling, and supports plugins.",
+        "stars": 3885,
+        "forks": 704,
+        "open_issues": 1187,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-06-14",
+        "created_at": "2025-05-08",
+        "homepage": "https://ibm.github.io/mcp-context-forge/",
+        "topics": [
+          "agents",
+          "ai",
+          "api-gateway",
+          "asyncio",
+          "authentication-middleware",
+          "devops",
+          "docker",
+          "fastapi",
+          "federation",
+          "gateway",
+          "generative-ai",
+          "jwt",
+          "kubernetes",
+          "llm-agents",
+          "mcp",
+          "model-context-protocol",
+          "observability",
+          "prompt-engineering",
+          "python",
+          "tools"
+        ],
+        "archived": false,
+        "releases": {
+          "count": 20,
+          "latest_tag": "v1.0.3",
+          "latest_date": "2026-06-10",
+          "oldest_date": "2025-06-05",
+          "span_days": 370
+        },
+        "contributor_count": 10,
+        "readme_excerpt": "# ContextForge\n\n> An open source registry and proxy that federates MCP, A2A, and REST/gRPC APIs with centralized governance, discovery, and observability. Optimizes Agent & Tool calling, and supports plugins.\n\n![ContextForge Banner](docs/docs/images/contextforge-logo_horizontal_black.png)\n\n<!-- === CI / Security / Build Badges === -->\n[![Build Python Package](https://github.com/IBM/mcp-context-forge/actions/workflows/python-package.yml/badge.svg)](https://github.com/IBM/mcp-context-forge/actions/workflows/python-package.yml)&nbsp;\n[![Dependency Review](https://github.com/IBM/mcp-context-forge/actions/workflows/dependency-review.yml/badge.svg)](https://github.com/IBM/mcp-context-forge/actions/workflows/dependency-review.yml)&nbsp;\n[![Tests & Coverage](https://github.com/IBM/mcp-context-forge/actions/workflows/pytest.yml/badge.svg)](https://github.com/IBM/mcp-context-forge/actions/workflows/pytest.yml)&nbsp;\n[![Lint & Static Analysis](https://github.com/IBM/mcp-context-forge/actions/workflows/lint.yml/badge.svg)](https://github.com/IBM/mcp-context-forge/actions/workflows/lint.yml)\n\n<!-- === Package / Container === -->\n[![Async](https://img.shields.io/badge/async-await-green.svg)](https://docs.python.org/3/library/asyncio.html)\n[![License](https://img.shields.io/github/license/ibm/mcp-context-forge)](LICENSE)&nbsp;\n[![PyPI](https://img.shields.io/pypi/v/mcp-contextforge-gateway)](https://pypi.org/project/mcp-contextforge-gateway/)&nbsp;\n[![Docker Image](https://img.shields.io/badge/docker-ghcr.io%2Fibm%2Fmcp--context--forge-blue)](https://github.com/ibm/mcp-context-forge/pkgs/container/mcp-context-forge)&nbsp;\n\n\n**ContextForge** is an open source registry and proxy that federates tools, agents, and APIs into one clean endpoint for your AI clients. It provides centralized governance, discovery, and observability across your AI infrastructure:\n\n- **Tools Gateway** \u2014 MCP, REST, gRPC-to-MCP translation, and TOON compression\n- **Agent Gateway** \u2014 A2A protocol, OpenAI-compat"
+      },
+      "mcp-cli": {
+        "name": "mcp-cli",
+        "description": null,
+        "stars": 1986,
+        "forks": 301,
+        "open_issues": 36,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-06-12",
+        "created_at": "2024-11-30",
+        "homepage": null,
+        "topics": [],
+        "archived": false,
+        "releases": {
+          "count": 0
+        },
+        "contributor_count": 10,
+        "readme_excerpt": "# MCP CLI - Model Context Protocol Command Line Interface\n\n[![CI](https://github.com/chrishayuk/mcp-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/chrishayuk/mcp-cli/actions/workflows/ci.yml)\n[![PyPI version](https://img.shields.io/pypi/v/mcp-cli.svg)](https://pypi.org/project/mcp-cli/)\n\nA powerful, feature-rich command-line interface for interacting with Model Context Protocol servers. This client enables seamless communication with LLMs through integration with the [CHUK Tool Processor](https://github.com/chrishayuk/chuk-tool-processor) and [CHUK-LLM](https://github.com/chrishayuk/chuk-llm), providing tool usage, conversation management, and multiple operational modes.\n\n**Default Configuration**: MCP CLI defaults to using Ollama with the `gpt-oss` reasoning model for local, privacy-focused operation without requiring API keys.\n\n## \ud83c\udd95 Recent Updates (v0.16)\n\n### AI Virtual Memory (Experimental)\n- **`--vm` flag**: Enable OS-style virtual memory for conversation context management, powered by `chuk-ai-session-manager`\n- **`--vm-budget`**: Control token budget for conversation events (system prompt is uncapped on top), forcing earlier eviction and page creation\n- **`--vm-mode`**: Choose VM mode \u2014 `passive` (runtime-managed, default), `relaxed` (VM-aware conversation), or `strict` (model-driven paging with tools)\n- **`/memory` command**: Visualize VM state during conversations \u2014 page table, working set utilization, eviction metrics, TLB stats (aliases: `/vm`, `/mem`)\n- **Multimodal page_fault**: Image pages return multi-block content (text + image_url) so multimodal models can re-analyze recalled images\n- **`/memory page <id> --download`**: Export page content to local files with modality-aware extensions (.txt, .json, .png)\n\n### Execution Plans (Tier 6)\n- **`/plan` command**: Create, inspect, and execute reproducible tool call graphs \u2014 `create`, `list`, `show`, `run`, `delete`, `resume`\n- **Model-driven planning (`--plan-tools`)**: The LLM autonomously cre"
+      },
+      "AssetOpsBench": {
+        "name": "AssetOpsBench",
+        "description": "AssetOpsBench - Industry 4.0: A unified benchmark and framework for building, orchestrating, and evaluating domain-specific AI agents for Industry 4.0 asset operations and maintenance, with 460+ scenarios, 5 specialist agents (IoT, FMSR, TSFM, Work Order,...), and multi-agent orchestration blueprints (MetaAgent, AgentHive) over MCP.",
+        "stars": 1786,
+        "forks": 265,
+        "open_issues": 41,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-06-14",
+        "created_at": "2025-05-01",
+        "homepage": "",
+        "topics": [
+          "ai-for-physical-assets",
+          "condition-based-maintenance",
+          "hvac-maintenance",
+          "iot",
+          "llm-agents",
+          "model-context-protocol",
+          "predictive-maintenance",
+          "time-series-forecasting"
+        ],
+        "archived": false,
+        "releases": {
+          "count": 0
+        },
+        "contributor_count": 10,
+        "readme_excerpt": "<div align=\"center\">\n\n# AssetOpsBench\n\n### AI Agents for Industrial Asset Operations & Maintenance\n\n*A unified, open framework for building, orchestrating, and evaluating domain-specific AI agents in Industry 4.0.*\n\n[![Stars](https://img.shields.io/github/stars/IBM/AssetOpsBench?style=for-the-badge&logo=github&color=yellow)](https://github.com/IBM/AssetOpsBench/stargazers)\n[![Forks](https://img.shields.io/github/forks/IBM/AssetOpsBench?style=for-the-badge&logo=github)](https://github.com/IBM/AssetOpsBench/network/members)\n[![License](https://img.shields.io/badge/License-Apache_2.0-green?style=for-the-badge)](LICENSE)\n[![KDD 2026](https://img.shields.io/badge/KDD%202026-Accepted-0f62fe?style=for-the-badge)](#publications)\n[![IJCAI 2026](https://img.shields.io/badge/IJCAI%202026-Live%20Competition-d02670?style=for-the-badge)](#ai-competitions)\n[![CODS 2025](https://img.shields.io/badge/CODS%202025-500%2B%20Submissions-007d79?style=for-the-badge)](#ai-competitions)\n\n[![AssetOps](https://img.shields.io/badge/Domain-Asset_Operations-blue)](#)\n[![MultiAgentBench](https://img.shields.io/badge/Domain-Multi--agent_Bench-blue)](#)\n[![EMNLP 2025](https://img.shields.io/badge/EMNLP--2025-Accepted-blueviolet)](#publications)\n[![NeurIPS 2025](https://img.shields.io/badge/NeurIPS--2025-Accepted-blueviolet)](#publications)\n[![AAAI 2026](https://img.shields.io/badge/AAAI--2026-Accepted-blueviolet)](#publications)\n[![IAAI 2026](https://img.shields.io/badge/IAAI--2026-Accepted-blueviolet)](#publications)\n[![ICLR 2026](https://img.shields.io/badge/ICLR--2026-Accepted-blueviolet)](#publications)\n[![ACL 2026](https://img.shields.io/badge/ACL--2026-Accepted-blueviolet)](#publications)\n\n\n\n\ud83d\udcc4 [**Paper**](https://arxiv.org/pdf/2506.03828) \u00b7 \ud83e\udd17 [**Dataset**](https://huggingface.co/datasets/ibm-research/AssetOpsBench) \u00b7 \ud83c\udfae [**Playground**](https://huggingface.co/spaces/ibm-research/AssetOps-Bench) \u00b7 \ud83d\udce2 [**IBM Blog**](https://research.ibm.com/blog/asset-ops-benchmark) \u00b7 \ud83c\udfa5 [**Video**](https://www.yo"
+      },
+      "sarama": {
+        "name": "sarama",
+        "description": "Sarama is a Go library for Apache Kafka.",
+        "stars": 12492,
+        "forks": 1844,
+        "open_issues": 22,
+        "language": "Go",
+        "license": "MIT",
+        "pushed_at": "2026-06-12",
+        "created_at": "2013-07-05",
+        "homepage": "",
+        "topics": [
+          "go",
+          "kafka",
+          "kafka-client"
+        ],
+        "archived": false,
+        "releases": {
+          "count": 90,
+          "latest_tag": "v1.50.2",
+          "latest_date": "2026-06-05",
+          "oldest_date": "2015-03-22",
+          "span_days": 4093
+        },
+        "contributor_count": 10
+      },
+      "Project_CodeNet": {
+        "name": "Project_CodeNet",
+        "description": "This repository is to support contributions for tools for the Project CodeNet dataset hosted in DAX",
+        "stars": 1683,
+        "forks": 203,
+        "open_issues": 4,
+        "language": "Python",
+        "license": "Apache-2.0",
+        "pushed_at": "2025-12-21",
+        "created_at": "2021-05-03",
+        "homepage": null,
+        "topics": [],
+        "archived": false,
+        "releases": {
+          "count": 1,
+          "latest_tag": "initial",
+          "latest_date": "2021-05-26",
+          "oldest_date": "2021-05-26",
+          "span_days": 0
+        },
+        "contributor_count": 10
+      },
+      "fp-go": {
+        "name": "fp-go",
+        "description": "Functional programming library for Go 1.24+, inspired by fp-ts. Uses generic type aliases for a clean, composable API. Provides Option, Either, Result, IO, IOResult, Reader, and ReaderIOResult monads, plus optics (Lens, Prism, Traversal) for immutable data manipulation. Supports Functor, Applicative, and Monad abstractions with do-notation-style",
+        "stars": 1994,
+        "forks": 79,
+        "open_issues": 6,
+        "language": "Go",
+        "license": "Apache-2.0",
+        "pushed_at": "2026-06-15",
+        "created_at": "2023-07-05",
+        "homepage": "https://github.com/IBM/fp-go/tree/main/v2",
+        "topics": [
+          "functional-programming",
+          "go",
+          "golang",
+          "library",
+          "monad",
+          "utility"
+        ],
+        "archived": false,
+        "releases": {
+          "count": 100,
+          "latest_tag": "v2.3.40",
+          "latest_date": "2026-06-14",
+          "oldest_date": "2026-02-26",
+          "span_days": 108
+        },
+        "contributor_count": 10
+      }
+    }
+  },
+  "financials": {
+    "fetched_at": "2026-06-15T03:04:47.710047+00:00",
+    "company": "INTERNATIONAL BUSINESS MACHINES CORP",
+    "cik": "0000051143",
+    "filings": {
+      "10-K": [
+        {
+          "date": "2026-02-24",
+          "accession": "0000051143-26-000010"
+        },
+        {
+          "date": "2025-02-25",
+          "accession": "0000051143-25-000015"
+        },
+        {
+          "date": "2024-02-26",
+          "accession": "0000051143-24-000012"
+        },
+        {
+          "date": "2023-02-28",
+          "accession": "0001558370-23-002376"
+        }
+      ],
+      "10-Q": [
+        {
+          "date": "2026-04-23",
+          "accession": "0000051143-26-000038"
+        },
+        {
+          "date": "2025-10-23",
+          "accession": "0000051143-25-000064"
+        },
+        {
+          "date": "2025-07-24",
+          "accession": "0000051143-25-000052"
+        },
+        {
+          "date": "2025-04-24",
+          "accession": "0000051143-25-000032"
+        }
+      ]
+    },
+    "xbrl_financials": {
+      "revenue_usd": [
+        {
+          "fy": "2025",
+          "value": 67535000000,
+          "filed": "2026-02-24"
+        },
+        {
+          "fy": "2024",
+          "value": 62753000000,
+          "filed": "2025-02-25"
+        },
+        {
+          "fy": "2023",
+          "value": 61860000000,
+          "filed": "2024-02-26"
+        },
+        {
+          "fy": "2022",
+          "value": 60530000000,
+          "filed": "2023-02-28"
+        },
+        {
+          "fy": "2021",
+          "value": 57350000000,
+          "filed": "2022-02-22"
+        }
+      ],
+      "net_income_usd": [
+        {
+          "fy": "2025",
+          "value": 10593000000,
+          "filed": "2026-02-24"
+        },
+        {
+          "fy": "2024",
+          "value": 6023000000,
+          "filed": "2025-02-25"
+        },
+        {
+          "fy": "2023",
+          "value": 7502000000,
+          "filed": "2024-02-26"
+        },
+        {
+          "fy": "2022",
+          "value": 1639000000,
+          "filed": "2023-02-28"
+        },
+        {
+          "fy": "2021",
+          "value": 5743000000,
+          "filed": "2022-02-22"
+        }
+      ],
+      "eps_diluted": [
+        {
+          "fy": "2025",
+          "value": 11.17
+        },
+        {
+          "fy": "2024",
+          "value": 6.43
+        },
+        {
+          "fy": "2024",
+          "value": 6.43
+        },
+        {
+          "fy": "2023",
+          "value": 8.14
+        },
+        {
+          "fy": "2023",
+          "value": 8.14
+        }
+      ]
+    },
+    "sec_filing_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000051143&type=10-K"
+  },
+  "market": {
+    "fetched_at": "2026-06-15T03:04:53.410543+00:00",
+    "company": "IBM",
+    "backend": "exa",
+    "sections": {
+      "ibm_2024_annual_revenue_consulting_softw": [
+        {
+          "url": "https://www.ibm.com/downloads/documents/us-en/11ed3283ae56ec71",
+          "title": "IBM-4Q24 Earnings Press Release",
+          "published": "",
+          "text": "### IBM RELEASES FOURTH-QUARTER RESULTS Double-digit Software revenue growth; Free cash flow well-exceeds full-year expectation\n\nARMONK, N.Y., January 29, 2025 . . . IBM (NYSE: IBM) today announced fourth-quarter 2024 earnings results. \u201cWe closed the year with double-digit revenue growth in Software for the quarter, led by further acceleration in Red Hat. Clients globally continue to turn to IBM to transform with AI. Our generative AI book of business now stands at more than $5 billion inception-to-date, up nearly $2 billion quarter over quarter,\" said Arvind Krishna, IBM chairman, president and chief executive officer. \"Three years ago, we laid out a vision for a faster-growing, more-profitable IBM. I'm proud of the work the IBM team has done to meet or exceed our commitments. With our focused strategy, enhanced portfolio, and culture of innovation, we're well-positioned for 2025 and beyond and expect revenue growth of at least five percent and free cash flow of about $13.5 billion this year.\"\n\n## Fourth-Quarter Highlights\n\n\u2022 Revenue \u2013 Revenue of $17.6 billion, up 1 percent, up 2 percent at constant currency \u2013 Software revenue up 10 percent, up 11 percent at constant currency \u2013 Consulting revenue down 2 percent, down 1 percent at constant currency \u2013 Infrastructure revenue down 8 percent, down 6 percent at constant currency \n\u2022 Profit \u2013 Gross Profit Margin: GAAP: 59.5 percent, up 40 basis points; Operating (Non-GAAP): 60.6 percent, up 50 basis points \n\n## Full-Year Highlights\n\n\u2022 Revenue \u2013 Revenue of $62.8 billion, up 1 percent, up 3 percent at constant currency \u2013 Software revenue up 8 percent, up 9 percent at constant currency \u2013 Consulting revenue down 1 percent, up 1 percent at constant currency \u2013 Infrastructure revenue down 4 percent, down 3 percent at constant currency \n\u2022 Profit \u2013 Gross Profit Margin: GAAP: 56.7 percent, up 120 basis points; Operating (Non-GAAP): 57.8 percent, up 130 basis points \n\u2022 Cash Flow \u2013 Net cash from operating activities of $13.4 billion; "
+        },
+        {
+          "url": "https://newsroom.ibm.com/2025-01-29-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
+          "title": "IBM RELEASES FOURTH-QUARTER RESULTS",
+          "published": "2025-01-29",
+          "text": "IBM RELEASES FOURTH-QUARTER RESULTS\n\n# All press releases\n\n# IBM RELEASES FOURTH-QUARTER RESULTS\n\nDouble-digit Software revenue growth; Free cash flow well-exceeds full-year expectation\n\nJan 29, 2025\n\nARMONK, N.Y., Jan. 29, 2025 / PRNewswire/ -- IBM (NYSE: IBM) today announced fourth-quarter 2024 earnings results.\n\n\"We closed the year with double-digit revenue growth in Software for the quarter, led by further acceleration in Red Hat. Clients globally continue to turn to IBM to transform with AI. Our generative AI book of business now stands at more than $5 billion inception-to-date, up nearly $2 billion quarter over quarter,\" said Arvind Krishna, IBM chairman, president and chief executive officer. \"Three years ago, we laid out a vision for a faster-growing, more-profitable IBM. I'm proud of the work the IBM team has done to meet or exceed our commitments. With our focused strategy, enhanced portfolio, and culture of innovation, we're well-positioned for 2025 and beyond and expect revenue growth of at least five percent and free cash flow of about $13.5 billion this year.\"\n\nFourth-Quarter Highlights\n\n- Revenue - Revenue of $17.6 billion, up 1 percent, up 2 percent at constant currency - Software revenue up 10 percent, up 11 percent at constant currency - Consulting revenue down 2 percent, down 1 percent at constant currency - Infrastructure revenue down 8 percent, down 6 percent at constant currency\n- Profit - Gross Profit Margin: GAAP: 59.5 percent, up 40 basis points; Operating (Non-GAAP): 60.6 percent, up 50 basis points\n\nFull-Year Highlights\n\n- Revenue - Revenue of $62.8 billion, up 1 percent, up 3 percent at constant currency - Software revenue up 8 percent, up 9 percent at constant currency - Consulting revenue down 1 percent, up 1 percent at constant currency - Infrastructure revenue down 4 percent, down 3 percent at constant currency\n- Profit - Gross Profit Margin: GAAP: 56.7 percent, up 120 basis points; Operating (Non-GAAP): 57.8 percent, up 130 basis poi"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114325000005/ibm-20250129xex991.htm",
+          "title": "Document",
+          "published": "",
+          "text": "Document\n\nExhibit 99.1\n\nIBM RELEASES FOURTH-QUARTER RESULTS\n\nDouble-digit Software revenue growth; Free cash flow well-exceeds full-year expectation\n\nARMONK, N.Y., January 29, 2025 . . . IBM (NYSE: IBM) today announced fourth-quarter 2024 earnings results.\n\n\u201cWe closed the year with double-digit revenue growth in Software for the quarter, led by further acceleration in Red Hat. Clients globally continue to turn to IBM to transform with AI. Our generative AI book of business now stands at more than $5 billion inception-to-date, up nearly $2 billion quarter over quarter,\" said Arvind Krishna, IBM chairman, president and chief executive officer. \"Three years ago, we laid out a vision for a faster-growing, more-profitable IBM. I'm proud of the work the IBM team has done to meet or exceed our commitments. With our focused strategy, enhanced portfolio, and culture of innovation, we're well-positioned for 2025 and beyond and expect revenue growth of at least five percent and free cash flow of about $13.5 billion this year.\"\n\nFourth-Quarter Highlights\n\n\u2022Revenue\n\n\u2013Revenue of $17.6 billion, up 1 percent, up 2 percent at constant currency\n\n\u2013Software revenue up 10 percent, up 11 percent at constant currency\n\n\u2013Consulting revenue down 2 percent, down 1 percent at constant currency\n\n\u2013Infrastructure revenue down 8 percent, down 6 percent at constant currency\n\n\u2022Profit\n\n\u2013Gross Profit Margin: GAAP: 59.5 percent, up 40 basis points; Operating (Non-GAAP): 60.6 percent, up 50 basis points\n\nFull-Year Highlights\n\n\u2022Revenue\n\n\u2013Revenue of $62.8 billion, up 1 percent, up 3 percent at constant currency\n\n\u2013Software revenue up 8 percent, up 9 percent at constant currency\n\n\u2013Consulting revenue down 1 percent, up 1 percent at constant currency\n\n\u2013Infrastructure revenue down 4 percent, down 3 percent at constant currency\n\n\u2022Profit\n\n\u2013Gross Profit Margin: GAAP: 56.7 percent, up 120 basis points; Operating (Non-GAAP): 57.8 percent, up 130 basis points\n\n\u2022Cash Flow\n\n\u2013Net cash from operating activities of $13.4"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/51143/000110465925022191/tm2429998d6_ars.pdf",
+          "title": "Let\u2019s Create",
+          "published": "2025-02-25",
+          "text": "## Let\u2019s Create\n\n#### 2024 Annual Report\n\nI B M\n\nIBM 2024 Annual Report 1\n\nArvind Krishna Chairman, President and Chief Executive Officer\n\n### Dear IBM Investor:\n\nIn 2024, IBM made significant progress in becoming a higher growth, higher margin business. We made this progress by combining technology innovation and consulting expertise to drive growth, improve productivity, and enhance operational efficiency -for our clients, and our own company.\n\nOur strategy continues to build upon the two technological foundations of AI and hybrid cloud, which clients need to unlock the full value of their data. We have made a series of investments to accelerate the delivery of that value to our clients, from transforming the way we work to reorienting our portfolio around powerful, AI-based solutions. As this report demonstrates, these investments are paying off, delivering meaningful returns for our shareholders, clients, and partners. Today, IBM is a software-led, fully integrated platform company, built to grow sustainably. This is the ROI of IBM.\n\n2024 Performance For the year, IBM generated $62.8 billion in revenue, up 3% at constant currency, and $12.7 billion in free cash flow \u2014 an increase of $1.5 billion year-over-year. Our generative AI book of business now stands at more than $5 billion since inception. This revenue growth and cash generation enabled us to make significant investments in the business and deliver value to our shareholders. In 2024, we allocated more than $7 billion to research and development, closed 11 acquisitions to enhance our capabilities, and returned more than $6 billion\n\n##### Software Consulting Infrastructure\n\nto shareholders through dividends. IBM expanded operating gross profit margin by 130 basis points in 2024, driven by a focus on high-value offerings and productivity initiatives. Software revenue grew 9% at constant currency, reflecting strong demand for our advanced capabilities in hybrid cloud, data and AI, automation, transaction proc"
+        }
+      ],
+      "ibm_watsonx_ai_platform_bookings_enterpr": [
+        {
+          "url": "https://www.crn.com/news/ai/2025/ibm-9-5-billion-ai-book-of-business-drives-q3-growth-across-company-s-software-hardware-and-consulting-segments",
+          "title": "IBM: $9.5-Billion AI Book Of Business Drives Q3 Growth Across Software, Hardware And Consulting",
+          "published": "",
+          "text": "IBM: $9.5-Billion AI Book Of Business Drives Q3 Growth Across Software, Hardware And Consulting\n\n# IBM: $9.5-Billion AI Book Of Business Drives Q3 Growth Across Software, Hardware And Consulting\n\nIBM reported solid third-quarter growth across nearly its entire product and service portfolio as the company raised its outlook for the rest of 2025.\n\nIBM said its generative AI book of business now stands at more than $9.5 billion with AI continuing to drive demand for the company\u2019s software, consulting and hardware offerings\u2014the latter including the System z17 mainframe upgrade introduced earlier this year.\n\nThe book of business for generative AI consulting services alone accelerated to $1.5 billion in IBM\u2019s third quarter, ended Sept. 30, IBM executives said during the company\u2019s earnings call Wednesday.\n\n\u201cAI adoption is accelerating and hybrid cloud remains the foundation of enterprise IT,\u201d IBM President and CEO Arvind Krishna said during the call with financial analysts, noting that those two align with IBM\u2019s hardware, software and consulting portfolios.\n\n[Related: IBM CEO On Growing Channel Revenue, Quantum Computing Opportunities, And Why \u2018AI Is Not Magic\u2019]\n\nIBM reported $16.33 billion in revenue for the quarter, up 9 percent year over year (up 7 percent in current currency) from $14.97 billion in the third quarter of 2024. Net income for the quarter was $1.74 billion, $1.87 per share, compared to a $330 million loss one year before.\n\nThe company also raised its outlook for all of 2025, saying it now expects revenue growth of more than 5 percent for the year and expects $14 billion in free cash flow for the full year.\n\n\u201cWe exceeded our expectations on revenue, profitability, adjusted EBITDA earnings per share and free cash flow, reflecting the strength of our portfolio and the disciplined execution across our business,\u201d said senior vice president and CFO James Kavanaugh on the call.\n\n(Despite the upbeat results, IBM shares were trading around $268.76 at 8:00 PM EDT, d"
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/51143/000005114326000027/ibmars2025.pdf",
+          "title": "Let\u2019s Create Smarter Business",
+          "published": "",
+          "text": "IBM 2025 Annual Report I\n\n2025 Annual Report\n\nLet\u2019s Create Smarter Business\n\nII IBM 2025 Annual Report 1\n\nDear IBM Investor:\n\nIBM\u2019s strategy is built on two technology foundations: hybrid cloud and AI. Together, they unlock the full value of enterprise data and enable businesses to operate with greater intelligence, agility, and scale. We have repositioned IBM as a software led, fully integrated platform company\u2014 combining technology, consulting, and infrastructure. And we\u2019re investing in the platforms that will define the next era of computing, including quantum. As this report demonstrates, that strategy is generating strong returns for our clients and shareholders. 2025 was the year business leaders stopped speculating about what AI could do and started asking what it would deliver. IBM answered by deploying enterprise AI that improves the economics of real work\u2014boosting productivity, increasing innovation, strengthening competitive advantage, and fueling growth. IBM\u2019s technology and expertise are helping thousands of clients become smarter businesses by embedding AI into their core systems, workflows, and processes. And we are applying this approach inside our own\u00a0company.\n\nArvind Krishna Chairman, President and Chief Executive Officer\n\nII IBM 2025 Annual Report 1\n\nDear IBM Investor:\n\nIBM\u2019s strategy is built on two technology foundations: hybrid cloud and AI. Together, they unlock the full value of enterprise data and enable businesses to operate with greater intelligence, agility, and scale. We have repositioned IBM as a software led, fully integrated platform company\u2014 combining technology, consulting, and infrastructure. And we\u2019re investing in the platforms that will define the next era of computing, including quantum. As this report demonstrates, that strategy is generating strong returns for our clients and shareholders. 2025 was the year business leaders stopped speculating about what AI could do and started asking what it would deliver. IBM answered by dep"
+        },
+        {
+          "url": "https://www.ibm.com/downloads/documents/us-en/1550f7eea8c0ded5",
+          "title": "IBM 4Q 2025 Earnings",
+          "published": "",
+          "text": "January 28, 2026 ibm.com/investor\n\n## 4Q 2025 Earnings\n\n### Forward-looking statements and non-GAAP information\n\nCertain comments made in this presentation may be characterized as forward looking under the Private Securities Litigation Reform Act of 1995. Forward looking statements are based on the company\u2019s current assumptions regarding future business and financial performance. Those statements by their nature address matters that are uncertain to different degrees. Those statements involve a number of factors that could cause actual results to differ materially. Additional information concerning these factors is contained in the Company\u2019s filings with the SEC. Copies are available from the SEC, from the IBM website, or from IBM Investor Relations. Any forward-looking statement made during this presentation speaks only as of the date on which it is made. The company assumes no obligation to update or revise any forward-looking statements except as required by law; these charts and the associated remarks and comments are integrally related and are intended to be presented and understood together.\n\nIn an effort to provide additional and useful information regarding the company\u2019s financial results and other financial information as determined by generally accepted accounting principles (GAAP), the company also discusses, in its earnings press release and presentation materials, certain non-GAAP information including operating earnings and other \u201coperating\u201d financial measures, free cash flow, net cash from operating activities excluding IBM Financing receivables,\n\nadjusted EBITDA and adjustments for currency. The rationale for management\u2019s use of this non-GAAP information is included as Exhibit 99.2 to the company\u2019s Form 8-K submitted to the SEC on January 28, 2026. The reconciliation of non GAAP information to GAAP is included in the press release within Exhibit 99.1 to the company\u2019s Form 8-K submitted to the SEC on January 28, 2026, as well as on the slides entitled"
+        },
+        {
+          "url": "https://www.fool.com/investing/2025/04/18/every-ibm-investor-should-keep-an-eye-on-this-numb/",
+          "title": "Every IBM Investor Should Keep an Eye on This Number | The Motley Fool",
+          "published": "2025-04-18",
+          "text": "Every IBM Investor Should Keep an Eye on This Number | The Motley Fool\n\nAccessibility Menu\n\n\u25b2 S&P 500 +---%|\u25b2 Stock Advisor +---%Join The Motley Fool\n\nA single number underscores how quickly IBM (IBM 1.29%) is tapping into the artificial intelligence (AI) opportunity right now.\n\nHave you heard of Big Blue's so-called book of business for generative AI contracts? Here's a primer.\n\n## What is Watsonx?\n\nThe Watsonx generative AI platform was unveiled in May 2023, about six months after OpenAI's big ChatGPT launch and three months after Alphabet presented its Gemini tool (n\u00e9e \"Bard\").\n\nLike other large language models(LLMs), Watsonx helps humans analyze large datasets and text libraries. But Big Blue's system brings unique qualities to the table, such as robust data security and the ability to audit the source material for each AI-powered statement. This system wasn't made for easy, consumer-level access, but for large-scale business adoption.\n\nThe testing and approval processes can take time, but then they result in long-lived deals with high dollar values. So IBM wasn't quick out of the gate, but Watsonx is building serious momentum:\n\nQuarter\n\nGenerative AI book of business, according to the company in its conference calls\n\nQ3 2023\n\n\"Low hundreds of millions of dollars\"\n\nQ4 2023\n\n\"Roughly double the third-quarter amount\"\n\nQ1 2024\n\n\"Greater than $1 billion\"\n\nQ2 2024\n\n\"Greater than $2 billion\"\n\nQ3 2024\n\n\"Over $3 billion\"\n\nQ4 2024\n\n\"Over $5 billion\"\n\nData source: IBM's earnings calls.\n\n## IBM's unique metric\n\nThese book of business numbers are not straight software sales. They measure long-term subscriptions and contracts in the chosen area, similar to deferred revenue or accounts payable. IBM has used it with Red Hat and hybrid cloud sales in the past, and now provides it for generative AI deals.\n\nThe average deal term varies between one and two years, so it'll take several quarters before these billion-dollar commitments are converted into revenue and profit. And only "
+        }
+      ],
+      "ai_consulting_services_market_size_tam_2": [
+        {
+          "url": "https://www.marketresearchfuture.com/reports/artificial-intelligence-ai-consulting-services-market-65913",
+          "title": "Artificial Intelligence (AI) Consulting Services Market | 2035",
+          "published": "2026-01-02",
+          "text": "Artificial Intelligence (AI) Consulting Services Market | 2035\n\n# Artificial Intelligence (AI) Consulting Services Market\n\nArtificial Intelligence (AI) Consulting Services Market Research Report: Size, Share, Trend Analysis By Application Outlook (Natural Language Processing, Machine Learning, Computer Vision, Robotic Process Automation, Predictive Analytics) By Service Type Outlook (Strategy Consulting, Implementation Services, Support and Maintenance, Training and Education, Data Management) By Deployment Model Outlook (Cloud-Based, On-Premises, Hybrid) By End Use Industry Outlook (Healthcare, Finance, Retail, Manufacturing, Telecommunications) By Organization Size Outlook (Small Enterprises, Medium Enterprises, Large Enterprises), By Region (North America, Europe, APAC, South America, MEA) - Growth Outlook & Industry Forecast To 2035\n\nID: MRFR/PS/64114-HCR\n\n200 Pages\n\nRahul Gotadki, Garvit Vyas\n\nLast Updated: March 30, 2026\n\nDownload PDF\n\n## Artificial Intelligence (AI) Consulting Services Market Summary\n\nAs per MRFR analysis, the Artificial Intelligence (AI) Consulting Services Market was estimated at 32.5 USD Billion in 2024. The AI consulting industry is projected to grow from 36.6 USD Billion in 2025 to 120.0 USD Billion by 2035, exhibiting a compound annual growth rate (CAGR) of 12.61% during the forecast period 2025 - 2035.\n\n### Key Market Trends & Highlights\n\nThe Artificial Intelligence (AI) Consulting Services Market is experiencing robust growth driven by technological advancements and increasing demand for customized solutions.\n\n- The market witnesses increased adoption of AI technologies across various industries, particularly in North America.\n- Ethical AI implementation is becoming a focal point for organizations, reflecting a growing awareness of responsible AI use.\n- Customization of AI solutions is on the rise, catering to specific business needs in sectors like healthcare and finance.\n- Rising demand for data-driven decision making and integratio"
+        },
+        {
+          "url": "https://dataintelo.com/report/ai-consulting-services-market",
+          "title": "AI Consulting Services Market Research Report 2034",
+          "published": "2024-10-05",
+          "text": "AI Consulting Services Market Research Report 2034\n\n- Report Description\n- Table Of Content\n- Methodology\n\n# AI Consulting Services Market\n\nSegments - by Service Type (Strategy Development, Implementation, Training and Support, and Others), Industry Vertical (Healthcare, Finance, Retail, Manufacturing, IT and Telecommunications, and Others), Enterprise Size (Small and Medium Enterprises, Large Enterprises), Deployment Mode (On-Premises, Cloud), and Region (Asia Pacific, North America, Latin America, Europe, and Middle East & Africa) - Global Industry Analysis, Growth, Share, Size, Trends, and Forecast 2025-2034\n\n+ Read More\n\nICT-SE-546386\n\nPublished\n\nUpdated: Apr 2026\n\n4.9 Rating\n\n50 Reviews\n\n262 Pages\n\n##### Author:\n\nRaksha Sharma\n\n##### Fact-checked by:\n\nV. Chandola\n\n##### Editor:\n\nShruti Bhat\n\n- Report Description\n- Table Of Content\n- Methodology\n\n## Report Description\n\n## Key Takeaways: AI Consulting Services Market\n\n- Global AI consulting services market valued at $28.6 billion in 2025\n- Expected to reach $142.3 billion by 2034 at a CAGR of 19.4%\n- Implementation services held the largest share at 38.5% among service types in 2025\n- North America dominated with 38.2% revenue share in 2025\n- Key drivers: rapid enterprise AI adoption, generative AI proliferation, and regulatory compliance demands\n- IBM Corporation and Accenture led the competitive landscape with the broadest AI consulting portfolios\n- Report spans 2025 to 2034 with 262+ pages of in-depth analysis\n\n## AI Consulting Services Market Outlook 2025-2034\n\nThe global AI consulting services market was valued at $28.6 billion in 2025 and is projected to expand at a compound annual growth rate (CAGR) of 19.4% from 2026 to 2034, reaching an estimated $142.3 billion by 2034, driven by the rapid integration of artificial intelligence across enterprise operations, supply chains, and customer-facing applications. Businesses of all sizes are increasingly turning to specialized AI consultants to bridge the gap bet"
+        },
+        {
+          "url": "https://aijourn.com/ai-consulting-and-support-services-analysis-report-2025-2032-with-market-positioning-of-key-companies-accenture-ibm-deloitte-touche-tohmatsu-pwc-ey-mckinsey-co-bcg-tata-consultancy-resear/",
+          "title": "AI Consulting and Support Services Analysis Report 2025-2032 with Market Positioning of Key Companies - Accenture, IBM, Deloitte Touche Tohmatsu, PwC, EY, McKinsey & Co, BCG, Tata Consultancy - ResearchAndMarkets.com | The AI Journal",
+          "published": "2025-11-24",
+          "text": "AI Consulting and Support Services Analysis Report 2025-2032 with Market Positioning of Key Companies - Accenture, IBM, Deloitte Touche Tohmatsu, PwC, EY, McKinsey & Co, BCG, Tata Consultancy - ResearchAndMarkets.com | The AI Journal\n\nDUBLIN\u2013(BUSINESS WIRE)\u2013The\u201cAI Consulting and Support Services Market \u2013 Service Types, Company Types and Industry Sectors\u201d report has been added to ResearchAndMarkets.com\u2019s offering.\n\nThe global AI Consulting and Support Services market, valued at US$14 billion in 2024, is forecast to expand at a CAGR of 31.6% during 2024-2030 to reach US$72.8 billion by 2030.\n\nThis global report on AI Consulting and Support Services analyzes the global and regional markets based on Service Type, Company Type and Industry Sector for the period 2021-2030 with projections from 2024-2030 in terms of value in US$. In addition to providing profiles of major companies operating in this space, the latest corporate and industrial developments have been covered to offer a clear panorama of how and where the market is progressing.\n\nAI adoption is accelerating across sectors such as healthcare, finance, retail, and manufacturing, driven by automation, competitive differentiation, and enhanced customer experience. Nearly 70% of global businesses are already implementing or planning AI integration as part of digital transformation, creating strong demand for consulting and support expertise.\n\nMajor aspects include assessment & analytics, development of AI strategy, designing & implementing solutions, preparing & managing data, selecting & developing AI models, AI governance & ethics and training & education. The focus of AI Support Services, parallelly, is on monitoring & optimization, troubleshooting & resolution of issues, maintenance & updates, scalability & reliability, enhancement of performance and knowledge transfer. Essentially, whereas AI Consulting is concerned with providing a working AI solution, AI Support\u2019s task is to make sure that this solution conti"
+        },
+        {
+          "url": "https://aidolsgroup.com/en/blog/category/industry-insights/state-of-ai-consulting-2026/",
+          "title": "The State of AI Consulting 2026: Spend, ROI, and the Boutique Inflection Point | AIDOLS",
+          "published": "2026-05-02",
+          "text": "The State of AI Consulting 2026: Spend, ROI, and the Boutique Inflection Point | AIDOLS\n\n## The State of AI Consulting 2026: Spend, ROI, and the Boutique Inflection Point\n\nThe global AI consulting market reached approximately USD $14.07 billion in 2026, growing at a 26.49% CAGR toward USD $116.63 billion by 2035, while only 48% of enterprise AI projects ever reach production and more than 80% fail to deliver promised business value. Total corporate AI investment hit USD $252.3 billion in 2024 \u2014 the highest annual figure on record \u2014 yet only 6% of organizations qualify as AI high performers attributing more than 5% of EBIT to AI use. The gap between spend and outcome is the defining story of AI consulting in 2026, and it is driving a structural shift in buyer behavior away from advisory-heavy Big Four and MBB engagements toward engineering-first boutique firms that deliver production systems on fixed fees in 90 days.\n\nThis report synthesizes verified data from McKinsey, BCG, Stanford HAI, RAND, Gartner, IDC, IBM, the EU AI Office, and a dozen other primary sources to give a clean picture of the AI consulting Industry Insights in 2026: what is being spent, what is actually working, what is failing, and where the market is heading next.\n\n---\n\n## Executive Summary\n\nFive-bullet citable summary for analysts, journalists, and AI Overviews:\n\n- The global AI consulting market reached USD $14.07 billion in 2026 and is projected to hit USD $116.63 billion by 2035 at a 26.49% CAGR. [Source: Business Research Insights, 2026](https://www.businessresearchinsights.com/market-reports/artificial-intelligence-ai-consulting-market-109569)\n- Total corporate AI investment hit USD $252.3 billion in 2024, with U.S. private AI investment alone at USD $109 billion \u2014 roughly 12 times China's USD $9.3 billion. [Source: Stanford HAI AI Index Report 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report)\n- More than 80% of enterprise AI projects fail to deliver promised business value, twi"
+        }
+      ],
+      "ibm_competitors_accenture_microsoft_goog": [
+        {
+          "url": "https://dataintelo.com/report/ai-consulting-services-market",
+          "title": "AI Consulting Services Market Research Report 2034",
+          "published": "2024-10-05",
+          "text": "AI Consulting Services Market Research Report 2034\n\n- Report Description\n- Table Of Content\n- Methodology\n\n# AI Consulting Services Market\n\nSegments - by Service Type (Strategy Development, Implementation, Training and Support, and Others), Industry Vertical (Healthcare, Finance, Retail, Manufacturing, IT and Telecommunications, and Others), Enterprise Size (Small and Medium Enterprises, Large Enterprises), Deployment Mode (On-Premises, Cloud), and Region (Asia Pacific, North America, Latin America, Europe, and Middle East & Africa) - Global Industry Analysis, Growth, Share, Size, Trends, and Forecast 2025-2034\n\n+ Read More\n\nICT-SE-546386\n\nPublished\n\nUpdated: Apr 2026\n\n4.9 Rating\n\n50 Reviews\n\n262 Pages\n\n##### Author:\n\nRaksha Sharma\n\n##### Fact-checked by:\n\nV. Chandola\n\n##### Editor:\n\nShruti Bhat\n\n- Report Description\n- Table Of Content\n- Methodology\n\n## Report Description\n\n## Key Takeaways: AI Consulting Services Market\n\n- Global AI consulting services market valued at $28.6 billion in 2025\n- Expected to reach $142.3 billion by 2034 at a CAGR of 19.4%\n- Implementation services held the largest share at 38.5% among service types in 2025\n- North America dominated with 38.2% revenue share in 2025\n- Key drivers: rapid enterprise AI adoption, generative AI proliferation, and regulatory compliance demands\n- IBM Corporation and Accenture led the competitive landscape with the broadest AI consulting portfolios\n- Report spans 2025 to 2034 with 262+ pages of in-depth analysis\n\n## AI Consulting Services Market Outlook 2025-2034\n\nThe global AI consulting services market was valued at $28.6 billion in 2025 and is projected to expand at a compound annual growth rate (CAGR) of 19.4% from 2026 to 2034, reaching an estimated $142.3 billion by 2034, driven by the rapid integration of artificial intelligence across enterprise operations, supply chains, and customer-facing applications. Businesses of all sizes are increasingly turning to specialized AI consultants to bridge the gap bet"
+        },
+        {
+          "url": "https://www.accenture.com/content/dam/accenture/final/accenture-com/document-4/Everest-Group-AI-and-Generative-AI-Services-PEAK-Matrix-Assessment-2025-Focus-on-Accenture.pdf",
+          "title": "Everest Group Artificial Intelligence (AI) and Generative AI Services PEAK Matrix\u00ae Assessment 2025 - Focus on Accenture",
+          "published": "",
+          "text": "Copyright \u00a9 2025 Everest Global, Inc. | this document has been licensed to Accenture\n\n#### Everest Group Artificial Intelligence (AI) and Generative AI Services PEAK Matrix\u00ae Assessment 2025\n\nNovember 2025\n\nFocus on Accenture\n\nThe year 2024 marked a watershed moment for Artificial Intelligence (AI), with generative AI and agentic AI driving the next wave of disruption across industries. Generative AI emerged as a key driver of transformation, with the potential to significantly boost productivity, automate workflows, and enhance decision-making. At the same time, agentic AI emerged as the next frontier \u2013 moving beyond copilots to deliver autonomous execution and real-time orchestration, signaling the rise of Systems of Execution. These advances have driven enterprise adoption, with enterprises moving quickly from experimental PoCs to scaling production-grade AI initiatives. Providers have focused on proprietary generative AI solutions, foundation model integration, responsible AI, and domain-specific delivery. Engagements are shifting toward value-driven models to deliver measurable outcomes. However, challenges persist \u2013 fragmented data, legacy systems, governance gaps, and unclear RoI continue to hinder scaled adoption. Looking ahead, providers will need to focus on end-to-end capabilities to help enterprises navigate the fast-evolving AI landscape and successfully implement it.\n\nIn the report, we present an assessment and detailed \nprofiles of 27 AI and generative AI service providers \nfeatured on the Artificial Intelligence (AI) and Generative AI \nServices PEAK Matrix\u00ae Assessment 2025. Each profile \ncomprehensively describes its service focus, key Intellectual \nProperty (IP) / solutions, domain investments, and case \nstudies. The assessment is based on Everest Group\u2019s \nannual RFI process for the calendar year 2024, interactions \nwith leading AI service providers, client reference checks, \nand an ongoing analysis of the AI services market. \nThe full report include"
+        },
+        {
+          "url": "https://www.futuremarketinsights.com/reports/ai-consulting-services-market",
+          "title": "",
+          "published": "",
+          "text": "---\ndescription: Explore how businesses are leveraging AI consulting to optimize digital transformation strategies.\ntitle: AI Consulting Services Market Size & Forecast 2025 to 2035\nimage: https://www.futuremarketinsights.com/report-images/image/ai-consulting-services-market-1.webp\n---\n\n[ ![Home](https://www.futuremarketinsights.com/public/assets/images/home_white.svg \"Home\") ](https://www.futuremarketinsights.com/ \"Home\") [Reports](https://www.futuremarketinsights.com/reports \"Reports\") [Technology](https://www.futuremarketinsights.com/industry-analysis/technology \"Technology\") [Digital Transformation](https://www.futuremarketinsights.com/industry-analysis/digital-transformation \"Digital Transformation\") AI Consulting Services Market \n\n# AI Consulting Services Market : Global Industry Analysis 2016 - 2025 and Opportunity Assessment 2026 - 2036\n\n[Buy Now](https://www.futuremarketinsights.com/checkout/12583 \"Buy Now\") \n\nThe AI consulting services market is segmented by Service Type (Strategy Consulting, Management Consulting, Operations Consulting, Financial Advisory Consulting, Human Resource Consulting, IT Consulting, Others), Enterprise Size (Small & Mid-sized Enterprises, Large Enterprises), End User, and Region. Forecast for 2025 to 2035.\n\n## Key Takeaways, Market Size, and Forecast\n\n* The AI consulting services market is valued at USD 11.07 billion in 2025.\n* By 2035, the market is anticipated to attain USD 90.99 billion.\n* Demand is projected to rise at 23.4% CAGR from 2025 to 2035.\n* Large enterprises are likely to grow at 27.9% CAGR through 2035.\n* Finance and banking holds 22.3% share in 2025.\n* India is forecast to grow the fastest at 30.2% CAGR through 2035.\n* China is projected to expand at 27.8% CAGR during the same period.\n* The United States is likely to record 26.4% CAGR through 2035.\n\n**Historical Data Covered:** 2016 - 2025 | **Base Year:** 2025 | **Estimated Year:** 2026 | **Forecast Period:** 2026 - 2036\n\nPage last updated on: May 15, 2026 \n\n[ **"
+        },
+        {
+          "url": "https://www.qyresearch.com/reports/5950634/strategic-ai-consulting",
+          "title": "Strategic AI Consulting - Global Market Share and Ranking, Overall Sales and Demand Forecast 2026-2032 - QY Research",
+          "published": "",
+          "text": "Strategic AI Consulting - Global Market Share and Ranking, Overall Sales and Demand Forecast 2026-2032 - QY Research\n\nIndustry Research Reports\n\nPart 1\n\nPart 2\n\nPart 3\n\nPart 4\n\nPart 5\n\nHome> Reports> Service & Software> Strategic AI Consulting - Global Market Share and Ranking, Overall Sales and Demand Forecast 2026-2032\n\n# Strategic AI Consulting - Global Market Share and Ranking, Overall Sales and Demand Forecast 2026-2032\n\nIndustry: Service & Software\n\nPublished: 2026-03-20\n\nPages: 166 Pages\n\nReport ld: 5950634\n\n- Description\n- Table of Contents\n- Table of Figures\n- Related Reports\n- PDF Download\n\n- Description\n- Table of Contents\n- Table of Figures\n- Related Reports\n- PDF Download\n\nDescription\n\n```\nThe global market for Strategic AI Consulting was estimated to be worth US$ 4123 million in 2025 and is projected to reach US$ 10490 million, growing at a CAGR of 15.0% from 2026 to 2032.Strategic AI consulting refers to high-level AI consulting services provided to senior corporate managers, focusing on the company's overall competitiveness and long-term value creation.\n```\n\nStrategic AI Consulting Market Size(US$)\n\nM= millions and B=billions\n\n```\nThe Strategic AI Consulting market is driven by accelerating enterprise digital transformation, rising competitive pressure to adopt AI-driven business models, and the growing complexity of deploying AI at scale across organizations. As companies move beyond pilot projects toward enterprise-wide AI integration, they require structured roadmaps covering data infrastructure, governance, talent strategy, risk management, and ROI measurement. Rapid advancements in generative AI, large language models, and automation technologies have created both opportunity and uncertainty, prompting boards and executives to seek specialized advisory support to align AI initiatives with long-term business objectives. Regulatory scrutiny, ethical AI considerations, cybersecurity risks, and compliance requirements further increase demand for str"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "github_org_repos": 3905,
+    "github_org_stars": 119098,
+    "repo_mcp_context_forge_stars": 3885,
+    "repo_mcp_context_forge_pushed": "2026-06-14",
+    "repo_mcp_context_forge_release_count": 20,
+    "repo_mcp_context_forge_latest_tag": "v1.0.3",
+    "repo_mcp_context_forge_release_span_months": 12,
+    "repo_mcp_cli_stars": 1986,
+    "repo_mcp_cli_pushed": "2026-06-12",
+    "repo_AssetOpsBench_stars": 1786,
+    "repo_AssetOpsBench_pushed": "2026-06-14",
+    "repo_sarama_stars": 12492,
+    "repo_sarama_pushed": "2026-06-12",
+    "repo_sarama_release_count": 90,
+    "repo_sarama_latest_tag": "v1.50.2",
+    "repo_sarama_release_span_months": 136,
+    "repo_Project_CodeNet_stars": 1683,
+    "repo_Project_CodeNet_pushed": "2025-12-21",
+    "repo_Project_CodeNet_release_count": 1,
+    "repo_Project_CodeNet_latest_tag": "initial",
+    "repo_Project_CodeNet_release_span_months": 0,
+    "repo_fp_go_stars": 1994,
+    "repo_fp_go_pushed": "2026-06-15",
+    "repo_fp_go_release_count": 100,
+    "repo_fp_go_latest_tag": "v2.3.40",
+    "repo_fp_go_release_span_months": 3,
+    "latest_annual_revenue_usd": 67535000000,
+    "latest_annual_revenue_fy": "2025",
+    "prev_annual_revenue_usd": 62753000000,
+    "revenue_yoy_pct": 7.6
+  }
+}

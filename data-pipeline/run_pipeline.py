@@ -47,16 +47,20 @@ import fetch_market
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--sources", default=None, help="Path to sources JSON (default: sources.json)")
     parser.add_argument("--company", default=None, help="Override company name")
     parser.add_argument("--github-org", default=None)
     parser.add_argument("--cik", default=None)
     parser.add_argument("--skip-market", action="store_true")
     parser.add_argument("--skip-financials", action="store_true")
-    parser.add_argument("--out", default=str(ROOT / "data/intel.json"))
+    parser.add_argument("--out", default=None, help="Output intel.json path (default: data/<company>/intel.json)")
     args = parser.parse_args()
 
-    # Patch sources if overrides given
-    sources_path = ROOT / "data-pipeline/sources.json"
+    # Load sources file
+    if args.sources:
+        sources_path = Path(args.sources) if Path(args.sources).is_absolute() else ROOT / args.sources
+    else:
+        sources_path = ROOT / "data-pipeline/sources.json"
     sources = json.loads(sources_path.read_text())
     if args.company:
         sources["target"]["name"] = args.company
@@ -64,7 +68,16 @@ def main():
         sources["target"]["github_org"] = args.github_org
     if args.cik:
         sources["target"]["sec_cik"] = args.cik
-    sources_path.write_text(json.dumps(sources, indent=2))
+
+    company_slug = sources["target"]["name"].lower().replace(" ", "_")
+    out_path = args.out or str(ROOT / f"data/{company_slug}/intel.json")
+    data_dir = Path(out_path).parent
+    data_dir.mkdir(parents=True, exist_ok=True)
+
+    # Pass active sources to sub-fetchers via env var (safe for parallel runs)
+    working_sources = data_dir / "sources_working.json"
+    working_sources.write_text(json.dumps(sources, indent=2))
+    os.environ["PIPELINE_SOURCES_PATH"] = str(working_sources)
 
     print("=" * 60)
     print(f"  INTEL PIPELINE — {sources['target']['name']}")
@@ -75,6 +88,8 @@ def main():
 
     def _load_cached(filename: str) -> dict:
         p = data_dir / filename
+        if not p.exists():
+            p = ROOT / "data" / filename  # fallback to legacy flat data dir
         if p.exists():
             try:
                 d = json.loads(p.read_text())
@@ -84,23 +99,29 @@ def main():
                 pass
         return {}
 
+    # Override fetcher output paths to be company-namespaced
+    import sys as _sys
+    _orig_argv = _sys.argv[:]
+
+    def _run_fetcher(fetcher_module, out_file: str, label: str) -> dict:
+        _sys.argv = [label, "--out", str(data_dir / out_file)]
+        try:
+            return fetcher_module.main()
+        except Exception as e:
+            print(f"  [warn] {label} failed: {e} — using cached data")
+            return _load_cached(out_file)
+        finally:
+            _sys.argv = _orig_argv
+
     # ── Stage 1: GitHub ───────────────────────────────────────────────────────
     print("\n[1/3] GitHub intelligence")
-    try:
-        github_intel = fetch_github.main()
-    except Exception as e:
-        print(f"  [warn] GitHub fetch failed: {e} — using cached data")
-        github_intel = _load_cached("github_intel.json")
+    github_intel = _run_fetcher(fetch_github, "github_intel.json", "fetch_github")
 
     # ── Stage 2: Financials (SEC EDGAR) ──────────────────────────────────────
     financials = {}
     if not args.skip_financials:
         print("\n[2/3] Financials (SEC EDGAR)")
-        try:
-            financials = fetch_financials.main()
-        except Exception as e:
-            print(f"  [warn] EDGAR fetch failed: {e} — using cached data")
-            financials = _load_cached("financials.json")
+        financials = _run_fetcher(fetch_financials, "financials.json", "fetch_financials")
     else:
         print("\n[2/3] Financials — skipped")
         financials = _load_cached("financials.json")
@@ -109,11 +130,7 @@ def main():
     market_intel = {}
     if not args.skip_market:
         print("\n[3/3] Market research")
-        try:
-            market_intel = fetch_market.main()
-        except Exception as e:
-            print(f"  [warn] Market fetch failed: {e} — using cached data")
-            market_intel = _load_cached("market_intel.json")
+        market_intel = _run_fetcher(fetch_market, "market_intel.json", "fetch_market")
     else:
         print("\n[3/3] Market research — skipped")
         market_intel = _load_cached("market_intel.json")
@@ -134,8 +151,7 @@ def main():
         "summary": _derive_summary(github_intel, financials),
     }
 
-    out = Path(args.out)
-    out.parent.mkdir(parents=True, exist_ok=True)
+    out = Path(out_path)
     out.write_text(json.dumps(intel, indent=2))
     print(f"\n✓ Pipeline complete → {out}")
     _print_summary(intel["summary"])

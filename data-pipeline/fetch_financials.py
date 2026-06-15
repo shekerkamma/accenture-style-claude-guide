@@ -8,7 +8,7 @@ Usage:
 
 Output: data/financials.json
 """
-import argparse, json, re, sys
+import argparse, json, os, re, sys
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import Request, urlopen
@@ -16,7 +16,8 @@ from urllib.error import HTTPError
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
-SOURCES = json.loads((ROOT / "data-pipeline/sources.json").read_text())
+_sources_path = os.environ.get("PIPELINE_SOURCES_PATH") or str(ROOT / "data-pipeline/sources.json")
+SOURCES = json.loads(Path(_sources_path).read_text())
 
 HEADERS = {"User-Agent": "intel-pipeline/1.0 research@example.com", "Accept": "application/json"}
 
@@ -69,8 +70,9 @@ def fetch_xbrl_facts(cik: str) -> dict:
 
 
 def main():
+    sources = json.loads(Path(os.environ.get("PIPELINE_SOURCES_PATH") or str(ROOT / "data-pipeline/sources.json")).read_text())
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cik", default=SOURCES["target"]["sec_cik"])
+    parser.add_argument("--cik", default=sources["target"]["sec_cik"])
     parser.add_argument("--out", default=str(ROOT / "data/financials.json"))
     args = parser.parse_args()
 

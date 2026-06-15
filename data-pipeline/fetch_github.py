@@ -18,7 +18,8 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
 
-SOURCES = json.loads((ROOT / "data-pipeline/sources.json").read_text())
+_sources_path = os.environ.get("PIPELINE_SOURCES_PATH") or str(ROOT / "data-pipeline/sources.json")
+SOURCES = json.loads(Path(_sources_path).read_text())
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 
 def gh(path: str, token: str = "") -> dict | list:
@@ -110,15 +111,16 @@ def fetch_repo_detail(org: str, name: str, token: str, fetch_readme: bool = Fals
 
 
 def main():
+    sources = json.loads(Path(os.environ.get("PIPELINE_SOURCES_PATH") or str(ROOT / "data-pipeline/sources.json")).read_text())
     parser = argparse.ArgumentParser()
-    parser.add_argument("--org", default=SOURCES["target"]["github_org"])
+    parser.add_argument("--org", default=sources["target"]["github_org"])
     parser.add_argument("--token", default=GITHUB_TOKEN)
     parser.add_argument("--out", default=str(ROOT / "data/github_intel.json"))
     args = parser.parse_args()
 
     token = args.token
     org = args.org
-    cfg = SOURCES["github"]
+    cfg = sources["github"]
 
     print(f"[github] fetching {org} org data...")
 
