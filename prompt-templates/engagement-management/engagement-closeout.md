@@ -48,3 +48,22 @@ Deliverable sign-off record, client satisfaction scorecard, reference case (anon
 ## Chain next
 - If follow-on identified → `/win-strategy` for the next pursuit
 - Client moves to BAU → `continuous-improvement` operating rhythm
+
+## PPTX output
+
+After `/engagement-closeout` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /engagement-closeout output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Engagement Closeout"
+Slides:
+- Slide 1: "Engagement Outcomes Scorecard" — layout: table (objective, delivered Y/N, evidence, client satisfaction RAG)
+  Content: Deliverable Sign-Off Record + Client Satisfaction Scorecard sections
+- Slide 2: "Follow-On Opportunities" — layout: pipeline table (opportunity, estimated value, timeline, next action, owner)
+  Content: Follow-On Opportunity Brief section; omit this slide if no follow-on is identified
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1–2-slide closeout pack. Slide 1 doubles as the satisfaction summary for the account director and reference case generation.

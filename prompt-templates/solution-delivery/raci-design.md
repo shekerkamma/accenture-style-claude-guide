@@ -39,3 +39,20 @@ RACI matrix (roles × decisions/deliverables), constraint validation (one A per 
 ## Chain next
 - Use the RACI to inform `/engagement-kickoff` ways of working
 - Use the escalation path to design the `/stakeholder-cadence`
+
+## PPTX output
+
+After `/raci-design` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /raci-design output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — RACI Matrix"
+Slides:
+- Slide 1: "RACI Matrix" — layout: matrix table (decision/deliverable rows × role columns; R/A/C/I cells; flag rows with missing Accountable or multiple Accountable)
+  Content: RACI Matrix section — all decisions and deliverables
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1-slide branded insert. If the matrix exceeds 10 rows, split into two slides by workstream. Include this slide in the kickoff pack and every stage gate review.

@@ -50,3 +50,22 @@ What we would do differently:
 - Enhancement opportunities → `/continuous-improvement-backlog`
 - Benefits tracking cadence → `/performance-review` (quarterly)
 - BAU governance → `/operating-rhythm-design`
+
+## PPTX output
+
+After `/post-implementation-review` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /post-implementation-review output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Post-Implementation Review (90 days)"
+Slides:
+- Slide 1: "90-Day Actuals vs Business Case" — layout: table (benefit, business case target, 90-day actual, variance %, RAG, root cause summary)
+  Content: Benefits Actuals vs Business Case section — all benefits
+- Slide 2: "Lessons Learned & Forward Actions" — layout: two-column (What Worked / What to Change) above actions table (action, owner, due date, status)
+  Content: Variance Analysis root causes + Forward Actions Register sections
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. This is the primary sponsor artefact at 90 days — Slide 1 demonstrates investment return, Slide 2 shows team accountability.

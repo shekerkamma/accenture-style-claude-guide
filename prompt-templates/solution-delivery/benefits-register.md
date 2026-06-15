@@ -44,3 +44,22 @@ Benefits register with baseline/target/owner per benefit, 30/90/180-day mileston
 ## Chain next
 - Benefits register becomes the measurement backbone for `/post-implementation-review`
 - Tracking cadence feeds into `/performance-review` (continuous-improvement)
+
+## PPTX output
+
+After `/benefits-register` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /benefits-register output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Benefits Register"
+Slides:
+- Slide 1: "Benefits Register" — layout: table (benefit, type, owner, baseline, 30-day/90-day/180-day targets, measurement method, data source)
+  Content: Benefits Register section — all benefits with full tracking row
+- Slide 2: "Benefits Realisation Timeline" — layout: milestone timeline (benefits switching on by phase; £ or % value unlocked per milestone)
+  Content: Milestone Targets + Timing columns
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. Slide 1 becomes the standing steering committee agenda item — RAG cells update each review cycle from /performance-review actuals.

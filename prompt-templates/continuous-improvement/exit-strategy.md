@@ -49,3 +49,22 @@ Exit readiness scorecard (Ready/Conditionally Ready/Not Ready), knowledge transf
 ## Chain next
 - Commercial closeout → `/engagement-closeout`
 - BAU governance → `/operating-rhythm-design` (already running or to be established)
+
+## PPTX output
+
+After `/exit-strategy` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /exit-strategy output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Consulting Exit Strategy"
+Slides:
+- Slide 1: "Exit Readiness Scorecard" — layout: scorecard table (criterion, status: Ready/Conditional/Not Ready, evidence, gap closure plan; overall verdict banner at top)
+  Content: Exit Readiness Criteria section — all criteria with current status
+- Slide 2: "Knowledge Transfer Plan" — layout: table (knowledge area, transfer method, from, to, completion date, validation method)
+  Content: Knowledge Transfer Plan section
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide consulting exit pack. Present Slide 1 at the formal exit review with the client sponsor — it is the sign-off mechanism and confirms the organisation is genuinely self-sufficient.

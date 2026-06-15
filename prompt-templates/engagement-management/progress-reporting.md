@@ -51,3 +51,22 @@ One-page RAG dashboard, milestone tracker with trend arrows, budget burn chart, 
 ## Chain next
 - RED items escalate to `/stakeholder-alignment` for exec intervention
 - End-of-phase summary becomes the `/stage-gate-review` input
+
+## PPTX output
+
+After `/progress-reporting` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /progress-reporting output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Progress Report: [PERIOD]"
+Slides:
+- Slide 1: "RAG Dashboard — [PERIOD]" — layout: milestone tracker table (milestone, target date, RAG, trend, comment) with overall RAG status banner at top
+  Content: RAG Dashboard + Milestone Tracker sections
+- Slide 2: "Issues, Risks & Decisions Needed" — layout: two-column (Issues/Risks table left / Decisions Needed table right)
+  Content: Issues/Risks section + Decisions Needed section
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide steering pack. Replace both slides each reporting cycle with the same layout — steering committees read by pattern recognition, so consistent formatting reduces cognitive load.

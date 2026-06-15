@@ -36,3 +36,22 @@ Maturity scorecard (5 dimensions × 1–4 scale), dimension deep-dives with spec
 ## Chain next
 - Proceed to `/ai-use-case-prioritiser` to identify which use cases match the maturity level
 - Run `/data-readiness-assessment` in parallel to assess data fitness
+
+## PPTX output
+
+After `/ai-maturity-assessment` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /ai-maturity-assessment output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — AI Maturity Assessment"
+Slides:
+- Slide 1: "AI Maturity Scorecard" — layout: scorecard matrix (5 dimension rows × 4 level columns; shade the current level per dimension)
+  Content: Maturity Scorecard section — all 5 dimensions with current level and evidence
+- Slide 2: "Priority Investments" — layout: 3 cards (investment title, rationale, expected maturity uplift)
+  Content: Priority Investments section — top 3 recommendations
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. The scorecard matrix is the primary executive artefact — dark cells show current level, lighter cells show the gap to Leading.

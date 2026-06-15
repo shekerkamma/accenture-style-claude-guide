@@ -42,3 +42,20 @@ Structured RAID log with RAG status per item, P×I risk scores (1–5 scale), ma
 ## Chain next
 - Items scoring High go into `/delivery-risk-assessment` for deeper analysis
 - Open risks and issues feed the `/progress-reporting` dashboard weekly
+
+## PPTX output
+
+After `/raid-log` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /raid-log output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — RAID Summary"
+Slides:
+- Slide 1: "RAID Summary — [DATE]" — layout: 4-quadrant grid (Risks / Assumptions / Issues / Dependencies; top 3 HIGH-rated items per quadrant with RAG dot)
+  Content: all four RAID sections — top 3 items per quadrant by severity
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1-slide branded insert for every progress reporting pack. Refresh weekly. The 4-quadrant layout gives steering committees a complete delivery health picture at a glance.

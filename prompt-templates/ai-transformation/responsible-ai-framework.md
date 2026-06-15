@@ -40,3 +40,22 @@ Responsible AI principles with "what we will not do" statements, risk tier taxon
 ## Chain next
 - Use risk tier classifications to inform `/solution-blueprint` design decisions
 - Add High/Critical use case risks to the `/raid-log`
+
+## PPTX output
+
+After `/responsible-ai-framework` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /responsible-ai-framework output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Responsible AI Framework"
+Slides:
+- Slide 1: "AI Risk Tier Register" — layout: table (use case, risk tier: Low/Med/High/Critical, automated decision Y/N, required governance, regulatory flag)
+  Content: Use Case Risk Register section — all in-scope use cases
+- Slide 2: "AI Governance Structure" — layout: governance diagram (review bodies with tier thresholds, escalation path, sign-off authorities)
+  Content: Review Board Design + Governance Requirements per Tier sections
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. The risk tier table is the primary compliance artefact — regulators and risk committees ask for this first.

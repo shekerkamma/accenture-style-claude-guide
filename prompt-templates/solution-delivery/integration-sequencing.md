@@ -41,3 +41,22 @@ Thin thread identification, P1/P2/P3 integration phases, dependency map, test ga
 ## Chain next
 - Add integration risks to `/raid-log`
 - Use phase dates to populate `/stage-gate-review` schedule
+
+## PPTX output
+
+After `/integration-sequencing` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /integration-sequencing output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Integration Sequencing"
+Slides:
+- Slide 1: "Integration Phases" — layout: phase table (Phase, System Pair, Data/Events Exchanged, Dependency, Test Gate, Target Date)
+  Content: P1/P2/P3 Integration Phases section
+- Slide 2: "Critical Path & Top Risks" — layout: table (integration, critical path flag, top risk, rollback position)
+  Content: Critical Path + Risk sections
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. Use Slide 1 as the integration plan anchor in the stage gate pack for each wave.

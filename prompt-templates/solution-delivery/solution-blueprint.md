@@ -45,3 +45,22 @@ Capability map, component register (build/buy/partner per component), workstream
 ## Chain next
 - Run `/architecture-decision-record` for any major decisions embedded in this blueprint (data storage, model selection, integration pattern)
 - Run `/integration-sequencing` to plan the data and system integration order
+
+## PPTX output
+
+After `/solution-blueprint` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /solution-blueprint output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Solution Blueprint"
+Slides:
+- Slide 1: "Capability Map" — layout: hierarchical table (Outcome → Capability → Component rows; Build/Buy/Partner flag per component)
+  Content: Capability Map + Component Register sections
+- Slide 2: "Phased Delivery Plan" — layout: phase timeline (Wave 1/2/3 with workstreams, milestones, and go-live gates)
+  Content: Phased Delivery Plan section
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. The capability map is the primary design artefact — anchor every architecture review and stage gate to this slide.

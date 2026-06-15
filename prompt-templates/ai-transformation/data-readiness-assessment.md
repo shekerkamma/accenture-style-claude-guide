@@ -38,3 +38,22 @@ Readiness scorecard per use case (Availability / Quality / Access / Lineage / Go
 ## Chain next
 - Use verdicts to confirm or adjust the `/ai-use-case-prioritiser` Wave 1 list
 - Pass Blocked use cases to Wave 2 with data remediation as a pre-condition
+
+## PPTX output
+
+After `/data-readiness-assessment` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /data-readiness-assessment output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Data Readiness Assessment"
+Slides:
+- Slide 1: "Data Readiness by Use Case" — layout: heatmap table (use case rows × Availability/Quality/Access/Lineage/Governance columns, RAG cells)
+  Content: Readiness Scorecard section — all use cases and dimensions
+- Slide 2: "Data Remediation Roadmap" — layout: table (use case, gap description, remediation action, owner, target date)
+  Content: Remediation Roadmap section — Blocked and Conditionally Ready use cases only
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. Slide 2 covers only Blocked and Conditionally Ready use cases — Ready use cases need no action.

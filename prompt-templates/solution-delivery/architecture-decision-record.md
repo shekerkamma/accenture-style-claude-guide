@@ -40,3 +40,20 @@ ADR document in standard format: context, options with pros/cons, decision, rati
 ## Chain next
 - Update `/solution-blueprint` where the decision affects the design
 - Add any risks identified during the decision to `/raid-log`
+
+## PPTX output
+
+After `/architecture-decision-record` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /architecture-decision-record output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — ADR: [DECISION TITLE]"
+Slides:
+- Slide 1: "ADR: [DECISION TITLE]" — layout: structured card (Context, Options Considered, Decision Taken, Rationale, Consequences — each in a labelled box)
+  Content: full ADR document — all sections in order
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1-slide branded insert per decision. Run once per major ADR from the /solution-blueprint. Stack ADR slides into the architecture section of the engagement deck — one slide per decision.

@@ -45,3 +45,22 @@ Kick-off meeting agenda, governance cadence design, ways of working charter, 30-
 ## Chain next
 - Governance design → `/stakeholder-cadence` to build out the full forum architecture
 - 30-day plan → tracks via `/progress-reporting` from Week 1
+
+## PPTX output
+
+After `/engagement-kickoff` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /engagement-kickoff output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Engagement Kick-Off"
+Slides:
+- Slide 1: "Governance & Ways of Working" — layout: two-column (Governance Cadence table left / Ways of Working charter right)
+  Content: Governance Cadence Design + Ways of Working Charter sections
+- Slide 2: "30-Day Action Plan" — layout: table (action, owner, due date, dependencies)
+  Content: 30-Day Action Plan section — all items with owner and date
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide kick-off pack insert. Share with all attendees on Day 1. These slides establish accountability from the first meeting.

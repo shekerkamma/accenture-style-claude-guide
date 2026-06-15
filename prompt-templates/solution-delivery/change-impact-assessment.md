@@ -43,3 +43,22 @@ Impact severity matrix (H/M/L per dimension per group), compounding impact ident
 
 ## Chain next
 - High-severity groups and dimensions become the focus of the `/adoption-plan` activity schedule
+
+## PPTX output
+
+After `/change-impact-assessment` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /change-impact-assessment output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Change Impact Assessment"
+Slides:
+- Slide 1: "Change Impact Matrix" — layout: heatmap table (impacted group rows × Process/Technology/Role/Behaviour columns; H/M/L cells with RAG shading)
+  Content: Impact Severity Matrix section — all groups across all dimensions
+- Slide 2: "High-Impact Groups — Design Implications" — layout: two-column (group + change narrative left / adoption plan implication right)
+  Content: Group-Level Change Narratives + Design Implications — HIGH severity groups only
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. Filter Slide 2 to HIGH-rated groups — these drive the adoption plan activity schedule.

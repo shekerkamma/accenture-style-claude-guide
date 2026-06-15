@@ -48,3 +48,22 @@ Risks categorised by type, scored P×I (1–5 each), heat map, top 5 critical ri
 ## Chain next
 - Critical risks (score ≥12) must have active mitigations in `/raid-log`
 - Risk profile informs the `/stage-gate-review` exit criteria
+
+## PPTX output
+
+After `/delivery-risk-assessment` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /delivery-risk-assessment output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Delivery Risk Assessment"
+Slides:
+- Slide 1: "Risk Heat Map" — layout: 5×5 probability-impact matrix with named risks plotted by category (Technical/Data/People/Vendor/Scope)
+  Content: Risk Register — P×I scores and categories for all risks
+- Slide 2: "Top 5 Risks — Mitigation Plan" — layout: table (risk, category, P×I score, owner, mitigation, residual risk)
+  Content: Top 5 Critical Risks section — items scoring ≥12 only
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. The heat map is the sponsor conversation tool — items in the top-right quadrant require mandatory mitigation (score ≥12).

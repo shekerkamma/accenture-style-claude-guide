@@ -39,3 +39,20 @@ Forum architecture (governance vs. collaboration forums), agenda template per fo
 ## Chain next
 - Forum architecture feeds into the weekly `/progress-reporting` cycle
 - Exec engagement model connects to `/stakeholder-alignment` for difficult moments
+
+## PPTX output
+
+After `/stakeholder-cadence` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /stakeholder-cadence output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Stakeholder Cadence"
+Slides:
+- Slide 1: "Forum Architecture" — layout: table (forum name, purpose, frequency, participants, chair, agenda template)
+  Content: Forum Architecture section — all governance and collaboration forums
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1-slide branded insert. Attach to the kick-off pack and update if forums change. A single clear table prevents meeting proliferation throughout the engagement.

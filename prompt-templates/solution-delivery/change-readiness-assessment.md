@@ -40,3 +40,22 @@ ADKAR scorecard per group (Awareness/Desire/Knowledge/Ability/Reinforcement, eac
 ## Chain next
 - Low-scoring groups inform the `/change-impact-assessment` severity ratings
 - Barrier points and interventions feed directly into the `/adoption-plan`
+
+## PPTX output
+
+After `/change-readiness-assessment` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /change-readiness-assessment output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Change Readiness Assessment"
+Slides:
+- Slide 1: "ADKAR Readiness Scorecard" — layout: heatmap table (impacted group rows × Awareness/Desire/Knowledge/Ability/Reinforcement columns; 1–5 score with RAG shading; active barrier highlighted per group)
+  Content: ADKAR Scorecard section — all groups and dimension scores
+- Slide 2: "Priority Interventions" — layout: table (group, active barrier, intervention, owner, timeline)
+  Content: Targeted Interventions section — top interventions ordered by barrier severity
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. The ADKAR heatmap is the key tool with HR and change leads — red/amber cells pinpoint exactly where adoption investment should go.

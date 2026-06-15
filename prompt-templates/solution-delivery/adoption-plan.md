@@ -41,3 +41,22 @@ Pre/post go-live activity schedule (week-by-week), comms plan with message-audie
 ## Chain next
 - Adoption metrics become the early indicators in `/benefits-register`
 - Support model during hypercare feeds into `/hypercare-plan`
+
+## PPTX output
+
+After `/adoption-plan` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /adoption-plan output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Adoption Plan"
+Slides:
+- Slide 1: "Adoption Activity Schedule" — layout: timeline table (week/phase rows × stakeholder group columns; activity type in each cell)
+  Content: Pre/Post Go-Live Activity Schedule section
+- Slide 2: "Adoption Metrics & Comms Plan" — layout: table (metric, target, measurement method, RAG threshold) above comms plan summary (message, audience, channel, date)
+  Content: Adoption Metrics Dashboard + Comms Plan sections
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. The activity timeline is the delivery team's operational reference — keep it in every progress reporting pack through go-live.

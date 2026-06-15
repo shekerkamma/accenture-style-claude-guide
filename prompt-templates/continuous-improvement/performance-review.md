@@ -46,3 +46,22 @@ KPI scorecard with RAG and trend arrows, benefits update (on-track/at-risk/overp
 ## Chain next
 - Structural underperformance (2+ consecutive quarters) → `/growth-barriers` (strategy-consulting)
 - Enhancement opportunities → `/continuous-improvement-backlog`
+
+## PPTX output
+
+After `/performance-review` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /performance-review output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Performance Review: [PERIOD]"
+Slides:
+- Slide 1: "KPI Scorecard — [PERIOD]" — layout: table (KPI, target, actual, variance %, trend arrow, RAG, owner)
+  Content: KPI Scorecard section — all KPIs with actuals and RAG
+- Slide 2: "Corrective Actions" — layout: table (KPI at risk, root cause, corrective action, owner, due date)
+  Content: Forward Corrective Actions section — KPIs more than 10% off target only; omit this slide if all KPIs are on track
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1–2-slide QBR pack insert. Replace both slides each review cycle. Slide 2 only when corrective action is required.

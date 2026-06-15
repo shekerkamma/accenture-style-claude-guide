@@ -43,3 +43,20 @@ Scored backlog (Score = Value + Urgency + (6-Effort) + Risk, each 1–5), Horizo
 ## Chain next
 - Horizon 1 items → integrate into the sprint/delivery plan
 - Large Horizon 2/3 clusters → `/transformation-roadmap` to plan the next improvement wave
+
+## PPTX output
+
+After `/continuous-improvement-backlog` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /continuous-improvement-backlog output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — CI Backlog: [DATE]"
+Slides:
+- Slide 1: "Improvement Backlog" — layout: table (ID, improvement idea, horizon, composite score, owner, status) sorted by score descending
+  Content: Scored Backlog section — Horizon 1 and 2 items only (Horizon 3 is parking lot, exclude)
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1-slide BAU governance insert. Include in the monthly performance review pack. It signals to the client that the improvement pipeline is active and managed, not stagnating.

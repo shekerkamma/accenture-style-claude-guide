@@ -50,3 +50,22 @@ Maturity scorecard (current level per dimension), overall level (minimum dimensi
 ## Chain next
 - Progression roadmap → `/transformation-roadmap` to plan and fund the investment
 - AI-specific capabilities → `/ai-maturity-assessment` for the next strategy cycle
+
+## PPTX output
+
+After `/capability-maturity-progression` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /capability-maturity-progression output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Capability Maturity Progression"
+Slides:
+- Slide 1: "Maturity Progression Scorecard" — layout: matrix (dimension rows × maturity level 1–5 columns; current level shaded; target level marked with arrow)
+  Content: Maturity Scorecard section — current and target level per dimension
+- Slide 2: "Progression Roadmap" — layout: quarterly timeline table (dimension, blocker to resolve, investment required, leading indicator of progress)
+  Content: Blocker Analysis + Maturity Progression Roadmap sections
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide annual review insert. Slide 1 shows where the organisation is today; Slide 2 shows the path to the next level with specific investments required.

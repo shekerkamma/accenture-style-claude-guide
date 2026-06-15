@@ -45,3 +45,22 @@ L1/L2/L3 support model, triage SLA table (P1/P2/P3), knowledge transfer schedule
 - Once hypercare exit criteria are met, trigger `/post-implementation-review` (90 days)
 - BAU governance model → `/operating-rhythm-design`
 - Consulting exit → `/exit-strategy`
+
+## PPTX output
+
+After `/hypercare-plan` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /hypercare-plan output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — Hypercare Plan"
+Slides:
+- Slide 1: "Hypercare Support Model" — layout: triage table (P1/P2/P3 rows; description, SLA, owner, escalation path columns)
+  Content: L1/L2/L3 Support Model + Triage SLA Table sections
+- Slide 2: "Hypercare Exit Criteria" — layout: scorecard (criterion, target, current status, RAG; overall exit readiness verdict banner at top)
+  Content: Hypercare Exit Criteria Dashboard section
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. Update Slide 2 daily during hypercare — it is the go/no-go mechanism for ending intensive support and transitioning to BAU.

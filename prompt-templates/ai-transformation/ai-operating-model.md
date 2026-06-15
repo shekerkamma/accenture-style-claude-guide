@@ -42,3 +42,22 @@ Archetype evaluation (CoE / Federated / Embedded / Hybrid), target operating mod
 ## Chain next
 - Pass role requirements into `/raci-design` to assign accountability
 - Use capability build sequence to inform `/transformation-roadmap`
+
+## PPTX output
+
+After `/ai-operating-model` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /ai-operating-model output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — AI Operating Model"
+Slides:
+- Slide 1: "Target AI Operating Model" — layout: archetype card (chosen model: CoE/Federated/Embedded/Hybrid; key governance nodes; who reports to whom)
+  Content: Target Operating Model section — chosen archetype with design rationale
+- Slide 2: "Role Requirements & Build Sequence" — layout: table (role, hire/upskill/partner, headcount, phase, estimated cost)
+  Content: Role Requirements + Capability Build Sequence sections
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 2-slide branded insert. Slide 1 is the anchor for the AI strategy chapter of any board deck.

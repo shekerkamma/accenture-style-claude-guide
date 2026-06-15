@@ -43,3 +43,20 @@ Three-layer operating rhythm (operational daily/weekly, performance monthly/quar
 ## Chain next
 - Performance forum → `/performance-review` to run the monthly/quarterly cycle
 - If improvement opportunities surfaced → `/continuous-improvement-backlog`
+
+## PPTX output
+
+After `/operating-rhythm-design` completes, chain to `/branded-pptx-deck`:
+
+```
+/branded-pptx-deck
+
+Source: paste the full /operating-rhythm-design output for [CLIENT NAME]
+Deck title: "[CLIENT NAME] — BAU Operating Rhythm"
+Slides:
+- Slide 1: "Operating Rhythm" — layout: three-layer table (Operational / Performance / Strategic layers as row groups; forum name, frequency, participants, purpose, owner per row)
+  Content: Three-Layer Operating Rhythm section — all forums across all layers
+Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+```
+
+Produces a 1-slide branded insert. Hand this to the BAU owner at hypercare exit — it becomes the standing reference for who runs what meeting and why.
