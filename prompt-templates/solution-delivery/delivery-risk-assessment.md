@@ -63,7 +63,7 @@ Slides:
   Content: Risk Register — P×I scores and categories for all risks
 - Slide 2: "Top 5 Risks — Mitigation Plan" — layout: table (risk, category, P×I score, owner, mitigation, residual risk)
   Content: Top 5 Critical Risks section — items scoring ≥12 only
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. The heat map is the sponsor conversation tool — items in the top-right quadrant require mandatory mitigation (score ≥12).

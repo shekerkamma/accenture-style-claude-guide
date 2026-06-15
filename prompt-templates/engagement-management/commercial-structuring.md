@@ -62,7 +62,7 @@ Slides:
   Content: Commercial Model Options section — all 3 options with recommended highlighted
 - Slide 2: "Negotiation Brief" — layout: table (item, our target, acceptable range, walk-away, rationale)
   Content: Negotiation Brief section
-Footer: "INTERNAL — NOT FOR CLIENT DISTRIBUTION | [DATE]"
+Footer: "INTERNAL — [FIRM NAME] — NOT FOR CLIENT DISTRIBUTION | [DATE]"
 ```
 
 Produces a 2-slide internal commercial pack. Mark footer as INTERNAL — the negotiation brief must never reach the client.

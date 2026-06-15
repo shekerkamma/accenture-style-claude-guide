@@ -60,7 +60,7 @@ Slides:
   Content: Governance Cadence Design + Ways of Working Charter sections
 - Slide 2: "30-Day Action Plan" — layout: table (action, owner, due date, dependencies)
   Content: 30-Day Action Plan section — all items with owner and date
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide kick-off pack insert. Share with all attendees on Day 1. These slides establish accountability from the first meeting.

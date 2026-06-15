@@ -59,7 +59,7 @@ Slides:
   Content: Win Themes section — each theme as a card
 - Slide 2: "Competitive Position" — layout: comparison table (evaluation dimension rows × our firm + named competitors; our position column highlighted)
   Content: Competitor Analysis Table section
-Footer: "INTERNAL — NOT FOR CLIENT DISTRIBUTION | [DATE]"
+Footer: "INTERNAL — [FIRM NAME] — NOT FOR CLIENT DISTRIBUTION | [DATE]"
 ```
 
 Produces a 2-slide internal pursuit pack insert. These slides go in the pursuit war room, not the client deck. Use INTERNAL footer — the competitive position must not reach the client.

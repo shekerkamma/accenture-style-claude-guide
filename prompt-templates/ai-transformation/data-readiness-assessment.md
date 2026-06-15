@@ -53,7 +53,7 @@ Slides:
   Content: Readiness Scorecard section — all use cases and dimensions
 - Slide 2: "Data Remediation Roadmap" — layout: table (use case, gap description, remediation action, owner, target date)
   Content: Remediation Roadmap section — Blocked and Conditionally Ready use cases only
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. Slide 2 covers only Blocked and Conditionally Ready use cases — Ready use cases need no action.

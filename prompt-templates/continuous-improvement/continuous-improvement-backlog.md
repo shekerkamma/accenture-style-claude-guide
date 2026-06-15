@@ -56,7 +56,7 @@ Deck title: "[CLIENT NAME] — CI Backlog: [DATE]"
 Slides:
 - Slide 1: "Improvement Backlog" — layout: table (ID, improvement idea, horizon, composite score, owner, status) sorted by score descending
   Content: Scored Backlog section — Horizon 1 and 2 items only (Horizon 3 is parking lot, exclude)
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1-slide BAU governance insert. Include in the monthly performance review pack. It signals to the client that the improvement pipeline is active and managed, not stagnating.

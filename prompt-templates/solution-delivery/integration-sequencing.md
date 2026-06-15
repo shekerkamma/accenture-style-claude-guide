@@ -56,7 +56,7 @@ Slides:
   Content: P1/P2/P3 Integration Phases section
 - Slide 2: "Critical Path & Top Risks" — layout: table (integration, critical path flag, top risk, rollback position)
   Content: Critical Path + Risk sections
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. Use Slide 1 as the integration plan anchor in the stage gate pack for each wave.

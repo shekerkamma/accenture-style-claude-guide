@@ -66,7 +66,7 @@ Slides:
   Content: RAG Dashboard + Milestone Tracker sections
 - Slide 2: "Issues, Risks & Decisions Needed" — layout: two-column (Issues/Risks table left / Decisions Needed table right)
   Content: Issues/Risks section + Decisions Needed section
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide steering pack. Replace both slides each reporting cycle with the same layout — steering committees read by pattern recognition, so consistent formatting reduces cognitive load.

@@ -53,7 +53,7 @@ Deck title: "[CLIENT NAME] — ADR: [DECISION TITLE]"
 Slides:
 - Slide 1: "ADR: [DECISION TITLE]" — layout: structured card (Context, Options Considered, Decision Taken, Rationale, Consequences — each in a labelled box)
   Content: full ADR document — all sections in order
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1-slide branded insert per decision. Run once per major ADR from the /solution-blueprint. Stack ADR slides into the architecture section of the engagement deck — one slide per decision.

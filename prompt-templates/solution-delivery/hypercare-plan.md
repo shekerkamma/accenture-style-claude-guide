@@ -60,7 +60,7 @@ Slides:
   Content: L1/L2/L3 Support Model + Triage SLA Table sections
 - Slide 2: "Hypercare Exit Criteria" — layout: scorecard (criterion, target, current status, RAG; overall exit readiness verdict banner at top)
   Content: Hypercare Exit Criteria Dashboard section
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. Update Slide 2 daily during hypercare — it is the go/no-go mechanism for ending intensive support and transitioning to BAU.

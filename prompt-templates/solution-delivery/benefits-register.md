@@ -59,7 +59,7 @@ Slides:
   Content: Benefits Register section — all benefits with full tracking row
 - Slide 2: "Benefits Realisation Timeline" — layout: milestone timeline (benefits switching on by phase; £ or % value unlocked per milestone)
   Content: Milestone Targets + Timing columns
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. Slide 1 becomes the standing steering committee agenda item — RAG cells update each review cycle from /performance-review actuals.

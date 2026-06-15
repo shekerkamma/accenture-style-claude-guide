@@ -55,7 +55,7 @@ Deck title: "[CLIENT NAME] — RAID Summary"
 Slides:
 - Slide 1: "RAID Summary — [DATE]" — layout: 4-quadrant grid (Risks / Assumptions / Issues / Dependencies; top 3 HIGH-rated items per quadrant with RAG dot)
   Content: all four RAID sections — top 3 items per quadrant by severity
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1-slide branded insert for every progress reporting pack. Refresh weekly. The 4-quadrant layout gives steering committees a complete delivery health picture at a glance.

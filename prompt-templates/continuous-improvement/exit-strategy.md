@@ -64,7 +64,7 @@ Slides:
   Content: Exit Readiness Criteria section — all criteria with current status
 - Slide 2: "Knowledge Transfer Plan" — layout: table (knowledge area, transfer method, from, to, completion date, validation method)
   Content: Knowledge Transfer Plan section
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide consulting exit pack. Present Slide 1 at the formal exit review with the client sponsor — it is the sign-off mechanism and confirms the organisation is genuinely self-sufficient.

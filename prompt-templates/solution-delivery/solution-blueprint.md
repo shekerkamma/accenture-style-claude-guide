@@ -60,7 +60,7 @@ Slides:
   Content: Capability Map + Component Register sections
 - Slide 2: "Phased Delivery Plan" — layout: phase timeline (Wave 1/2/3 with workstreams, milestones, and go-live gates)
   Content: Phased Delivery Plan section
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. The capability map is the primary design artefact — anchor every architecture review and stage gate to this slide.

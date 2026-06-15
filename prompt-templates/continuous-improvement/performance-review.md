@@ -61,7 +61,7 @@ Slides:
   Content: KPI Scorecard section — all KPIs with actuals and RAG
 - Slide 2: "Corrective Actions" — layout: table (KPI at risk, root cause, corrective action, owner, due date)
   Content: Forward Corrective Actions section — KPIs more than 10% off target only; omit this slide if all KPIs are on track
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1–2-slide QBR pack insert. Replace both slides each review cycle. Slide 2 only when corrective action is required.

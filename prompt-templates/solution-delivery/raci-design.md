@@ -52,7 +52,7 @@ Deck title: "[CLIENT NAME] — RACI Matrix"
 Slides:
 - Slide 1: "RACI Matrix" — layout: matrix table (decision/deliverable rows × role columns; R/A/C/I cells; flag rows with missing Accountable or multiple Accountable)
   Content: RACI Matrix section — all decisions and deliverables
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1-slide branded insert. If the matrix exceeds 10 rows, split into two slides by workstream. Include this slide in the kickoff pack and every stage gate review.

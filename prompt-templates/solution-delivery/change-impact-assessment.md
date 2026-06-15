@@ -58,7 +58,7 @@ Slides:
   Content: Impact Severity Matrix section — all groups across all dimensions
 - Slide 2: "High-Impact Groups — Design Implications" — layout: two-column (group + change narrative left / adoption plan implication right)
   Content: Group-Level Change Narratives + Design Implications — HIGH severity groups only
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. Filter Slide 2 to HIGH-rated groups — these drive the adoption plan activity schedule.

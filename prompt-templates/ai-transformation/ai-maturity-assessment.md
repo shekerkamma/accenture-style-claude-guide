@@ -51,7 +51,7 @@ Slides:
   Content: Maturity Scorecard section — all 5 dimensions with current level and evidence
 - Slide 2: "Priority Investments" — layout: 3 cards (investment title, rationale, expected maturity uplift)
   Content: Priority Investments section — top 3 recommendations
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. The scorecard matrix is the primary executive artefact — dark cells show current level, lighter cells show the gap to Leading.

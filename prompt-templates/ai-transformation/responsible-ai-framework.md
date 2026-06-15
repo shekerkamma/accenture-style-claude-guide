@@ -55,7 +55,7 @@ Slides:
   Content: Use Case Risk Register section — all in-scope use cases
 - Slide 2: "AI Governance Structure" — layout: governance diagram (review bodies with tier thresholds, escalation path, sign-off authorities)
   Content: Review Board Design + Governance Requirements per Tier sections
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. The risk tier table is the primary compliance artefact — regulators and risk committees ask for this first.

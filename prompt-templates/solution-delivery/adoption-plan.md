@@ -56,7 +56,7 @@ Slides:
   Content: Pre/Post Go-Live Activity Schedule section
 - Slide 2: "Adoption Metrics & Comms Plan" — layout: table (metric, target, measurement method, RAG threshold) above comms plan summary (message, audience, channel, date)
   Content: Adoption Metrics Dashboard + Comms Plan sections
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. The activity timeline is the delivery team's operational reference — keep it in every progress reporting pack through go-live.

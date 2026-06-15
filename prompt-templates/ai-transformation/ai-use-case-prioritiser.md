@@ -52,7 +52,7 @@ Slides:
   Content: Portfolio Map section — use case IDs and positions by quadrant
 - Slide 2: "Wave 1 Portfolio" — layout: table (use case, domain, value score, feasibility score, Wave, owner, timeline)
   Content: Wave 1 Portfolio section — funded and sequenced use cases
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. The 2×2 is the key strategic conversation starter — clients immediately debate which quadrant to prioritise.

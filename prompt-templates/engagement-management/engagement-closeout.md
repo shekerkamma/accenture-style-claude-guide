@@ -63,7 +63,7 @@ Slides:
   Content: Deliverable Sign-Off Record + Client Satisfaction Scorecard sections
 - Slide 2: "Follow-On Opportunities" — layout: pipeline table (opportunity, estimated value, timeline, next action, owner)
   Content: Follow-On Opportunity Brief section; omit this slide if no follow-on is identified
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1–2-slide closeout pack. Slide 1 doubles as the satisfaction summary for the account director and reference case generation.

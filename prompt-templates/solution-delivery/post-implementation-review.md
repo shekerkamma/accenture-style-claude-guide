@@ -65,7 +65,7 @@ Slides:
   Content: Benefits Actuals vs Business Case section — all benefits
 - Slide 2: "Lessons Learned & Forward Actions" — layout: two-column (What Worked / What to Change) above actions table (action, owner, due date, status)
   Content: Variance Analysis root causes + Forward Actions Register sections
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. This is the primary sponsor artefact at 90 days — Slide 1 demonstrates investment return, Slide 2 shows team accountability.

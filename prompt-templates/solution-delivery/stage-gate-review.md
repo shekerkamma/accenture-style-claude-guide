@@ -54,7 +54,7 @@ Slides:
   Content: Exit Criteria Scorecard + Gate Verdict sections
 - Slide 2: "Conditions & Next Steps" — layout: table (condition, owner, due date, resolution plan) — include only for Conditional Go or No-Go verdicts
   Content: Mandatory Conditions + Updated Delivery Plan sections
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1–2-slide branded insert. Slide 2 only needed when the verdict is Conditional Go or No-Go.

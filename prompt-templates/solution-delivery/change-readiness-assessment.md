@@ -55,7 +55,7 @@ Slides:
   Content: ADKAR Scorecard section — all groups and dimension scores
 - Slide 2: "Priority Interventions" — layout: table (group, active barrier, intervention, owner, timeline)
   Content: Targeted Interventions section — top interventions ordered by barrier severity
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. The ADKAR heatmap is the key tool with HR and change leads — red/amber cells pinpoint exactly where adoption investment should go.

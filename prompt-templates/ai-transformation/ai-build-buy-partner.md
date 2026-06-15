@@ -53,7 +53,7 @@ Slides:
   Content: Capability Register section — all capabilities with sourcing decision
 - Slide 2: "Vendor Shortlist" — layout: cards (vendor, capability area, commercial model, key advantage, key risk)
   Content: Vendor Shortlist section — Buy and Partner capabilities only; omit this slide if all decisions are Build
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1–2-slide branded insert. Include Slide 2 only when there are Buy or Partner decisions.

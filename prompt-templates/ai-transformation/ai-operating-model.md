@@ -57,7 +57,7 @@ Slides:
   Content: Target Operating Model section — chosen archetype with design rationale
 - Slide 2: "Role Requirements & Build Sequence" — layout: table (role, hire/upskill/partner, headcount, phase, estimated cost)
   Content: Role Requirements + Capability Build Sequence sections
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 2-slide branded insert. Slide 1 is the anchor for the AI strategy chapter of any board deck.

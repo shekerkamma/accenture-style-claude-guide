@@ -52,7 +52,7 @@ Deck title: "[CLIENT NAME] — Stakeholder Cadence"
 Slides:
 - Slide 1: "Forum Architecture" — layout: table (forum name, purpose, frequency, participants, chair, agenda template)
   Content: Forum Architecture section — all governance and collaboration forums
-Footer: "[CLIENT NAME] | [DATE] | CONFIDENTIAL"
+Footer: "[FIRM NAME] | [CLIENT NAME] | [DATE] | CONFIDENTIAL"
 ```
 
 Produces a 1-slide branded insert. Attach to the kick-off pack and update if forums change. A single clear table prevents meeting proliferation throughout the engagement.
