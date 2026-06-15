@@ -14,9 +14,27 @@ Env vars:
 
 Output: data/intel.json (merged from all fetchers)
 """
-import argparse, json, os, sys
+import argparse, json, os, subprocess, sys
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Auto-load ~/.config/intel-pipeline/.env if keys not already in env
+_env_file = Path.home() / ".config/intel-pipeline/.env"
+if _env_file.exists():
+    for line in _env_file.read_text().splitlines():
+        line = line.strip()
+        if line and not line.startswith("#") and "=" in line:
+            k, _, v = line.partition("=")
+            os.environ.setdefault(k.strip(), v.strip())
+
+# Auto-load GitHub token from gh CLI if not in env
+if not os.environ.get("GITHUB_TOKEN"):
+    try:
+        token = subprocess.check_output(["gh", "auth", "token"], text=True).strip()
+        if token:
+            os.environ["GITHUB_TOKEN"] = token
+    except Exception:
+        pass
 
 ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(ROOT))
@@ -53,25 +71,52 @@ def main():
     print(f"  {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     print("=" * 60)
 
+    data_dir = ROOT / "data"
+
+    def _load_cached(filename: str) -> dict:
+        p = data_dir / filename
+        if p.exists():
+            try:
+                d = json.loads(p.read_text())
+                print(f"  (using cached {filename})")
+                return d
+            except Exception:
+                pass
+        return {}
+
     # ── Stage 1: GitHub ───────────────────────────────────────────────────────
     print("\n[1/3] GitHub intelligence")
-    github_intel = fetch_github.main()
+    try:
+        github_intel = fetch_github.main()
+    except Exception as e:
+        print(f"  [warn] GitHub fetch failed: {e} — using cached data")
+        github_intel = _load_cached("github_intel.json")
 
     # ── Stage 2: Financials (SEC EDGAR) ──────────────────────────────────────
     financials = {}
     if not args.skip_financials:
         print("\n[2/3] Financials (SEC EDGAR)")
-        financials = fetch_financials.main()
+        try:
+            financials = fetch_financials.main()
+        except Exception as e:
+            print(f"  [warn] EDGAR fetch failed: {e} — using cached data")
+            financials = _load_cached("financials.json")
     else:
         print("\n[2/3] Financials — skipped")
+        financials = _load_cached("financials.json")
 
     # ── Stage 3: Market research ──────────────────────────────────────────────
     market_intel = {}
     if not args.skip_market:
         print("\n[3/3] Market research")
-        market_intel = fetch_market.main()
+        try:
+            market_intel = fetch_market.main()
+        except Exception as e:
+            print(f"  [warn] Market fetch failed: {e} — using cached data")
+            market_intel = _load_cached("market_intel.json")
     else:
         print("\n[3/3] Market research — skipped")
+        market_intel = _load_cached("market_intel.json")
 
     # ── Merge ─────────────────────────────────────────────────────────────────
     print("\n[merge] building intel.json...")
